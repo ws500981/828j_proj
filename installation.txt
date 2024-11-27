@@ -1,0 +1,7 @@
+sinteractive --gres=gpu:k80:1,lscratch:10 --mem=20g -c14
+
+conda env create -f env_visiumhd.yml
+pip install sae-lens transformer-lens sae-dashboard
+#pip install google-generativeai
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 # this is for cuda 11.4 (after running nvidia-smi to check cuda version)
+
