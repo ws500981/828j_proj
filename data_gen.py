@@ -265,3 +265,11 @@ dataset1 = create_pair_set(combined, 'entail', no_pairs, typee = 'word')
 
 n_samples = 20
 sequences = generate_entailment_sequences(dataset0, dataset1, n_samples)
+
+# create dataset
+sequences = list(sequences)
+texts = [item.split('? ')[0]+'?' for item in sequences]
+labels = [0 if item.split('? ')[1] == 'No' else 1 for item in sequences]
+dataset = pd.DataFrame({'text': texts, 'label': labels})
+dataset.to_csv('/home/wuw15/data_dir/cwproj/dataset.csv', index=False)
+
