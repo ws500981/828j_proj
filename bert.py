@@ -1,214 +1,193 @@
 import torch
-import torch.nn as nn
-import torch.nn.functional as F
-from torch.utils.data import Dataset, DataLoader
+from transformers import BertTokenizer, BertForSequenceClassification
+from torch.utils.data import DataLoader, Dataset
+from transformers import AdamW, get_linear_schedule_with_warmup
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
 import pandas as pd
-import tiktoken
+from tqdm import tqdm
+import os
+import glob
 
-# Hyperparameters
-batch_size = 32
-head_size = 4
-n_embd = 16
-n_heads = 4
-n_layers = 2
-dropout = 0.2
-learning_rate = 1e-4
+# 1. Prepare your dataset
+# Replace this with your actual data loading logic
+df = pd.read_csv("/home/wuw15/data_dir/cwproj/dataset.csv")
 
-eval_interval = 100
-max_iters = 5000
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-torch.manual_seed(1337)
+# 2. Split the data into training and validation sets
+train_texts, val_texts, train_labels, val_labels = train_test_split(
+    df['text'], df['label'], test_size=0.2, random_state=42
+)
 
-# Tokenizer and Dataset Preparation
-class BinaryDataset(Dataset):
-    def __init__(self, texts, labels, tokenizer):
-        self.texts = texts
-        self.labels = labels
-        self.tokenizer = tokenizer
+# 3. Load the tokenizer and tokenize the data
+tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 
-    def __len__(self):
-        return len(self.texts)
+train_encodings = tokenizer(
+    list(train_texts),
+    truncation=True,
+    padding=True,
+    max_length=128
+)
+val_encodings = tokenizer(
+    list(val_texts),
+    truncation=True,
+    padding=True,
+    max_length=128
+)
+
+# 4. Create a custom Dataset class
+class BinaryClassificationDataset(Dataset):
+    def __init__(self, encodings, labels):
+        self.encodings = encodings
+        self.labels = labels.values  # Convert to NumPy array if it's a pandas Series
 
     def __getitem__(self, idx):
-        text = self.texts[idx]
-        label = self.labels[idx]
-        tokens = self.tokenizer.encode(text)
-        x = torch.tensor(tokens, dtype=torch.long)
-        return x, torch.tensor(label, dtype=torch.float)
+        item = {key: torch.tensor(val[idx]) for key, val in self.encodings.items()}
+        item['labels'] = torch.tensor(self.labels[idx]).long()
+        return item
 
-# Self-Attention Head with Masking
-# Self-Attention Head without Causal Masking
-class Head(nn.Module):
-    def __init__(self, head_size, n_embd):
-        super().__init__()
-        self.key = nn.Linear(n_embd, head_size, bias=False)
-        self.query = nn.Linear(n_embd, head_size, bias=False)
-        self.value = nn.Linear(n_embd, head_size, bias=False)
-        self.dropout = nn.Dropout(dropout)
+    def __len__(self):
+        return len(self.labels)
 
-    def forward(self, x, mask=None):
-        B, T, C = x.shape
-        k = self.key(x)  # (B, T, head_size)
-        q = self.query(x)  # (B, T, head_size)
-        v = self.value(x)  # (B, T, head_size)
-        wei = q @ k.transpose(-2, -1) * (1.0 / (head_size ** 0.5))  # (B, T, T)
-        if mask is not None:
-            mask_combined = mask.unsqueeze(1) * mask.unsqueeze(2)  # (B, T, T)
-            large_neg = -1e9
-            wei = wei.masked_fill(mask_combined == 0, large_neg)
-        wei = F.softmax(wei, dim=-1)
-        wei = self.dropout(wei)
-        return wei @ v  # (B, T, head_size)
+# 5. Create the datasets
+train_dataset = BinaryClassificationDataset(train_encodings, train_labels)
+val_dataset = BinaryClassificationDataset(val_encodings, val_labels)
 
+# 6. Load the pre-trained BERT model
+model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=2)
 
-# Multi-Head Attention without block_size
-class MultiHead(nn.Module):
-    def __init__(self, head_size, n_embd, n_heads):
-        super().__init__()
-        self.heads = nn.ModuleList([Head(head_size, n_embd) for _ in range(n_heads)])
-        self.proj = nn.Linear(n_heads * head_size, n_embd)
-        self.dropout = nn.Dropout(dropout)
+# 7. Move the model to GPU if available
+device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
+model.to(device)
 
-    def forward(self, x, mask=None):
-        out = [head(x, mask=mask) for head in self.heads]  # List of (B, T, head_size)
-        x = torch.cat(out, dim=-1)  # (B, T, n_heads * head_size)
-        x = self.dropout(self.proj(x))
-        return x
+# 8. Create the DataLoaders
+train_loader = DataLoader(train_dataset, batch_size=8, shuffle=True)
+val_loader = DataLoader(val_dataset, batch_size=8, shuffle=False)
 
+# 9. Set up the optimizer and learning rate scheduler
+optimizer = AdamW(model.parameters(), lr=5e-5)
 
-# Feed-Forward Network
-class FeedForward(nn.Module):
-    def __init__(self, n_embd):
-        super().__init__()
-        self.net = nn.Sequential(
-            nn.Linear(n_embd, 4 * n_embd),
-            nn.ReLU(),
-            nn.Linear(4 * n_embd, n_embd),
-            nn.Dropout(dropout)
-        )
+# Total number of training steps
+total_steps = len(train_loader) * 3  # epochs = 3
 
-    def forward(self, x):
-        return self.net(x)
+scheduler = get_linear_schedule_with_warmup(
+    optimizer,
+    num_warmup_steps=0,
+    num_training_steps=total_steps
+)
 
-# Block without block_size
-class Block(nn.Module):
-    def __init__(self, head_size, n_embd, n_heads):
-        super().__init__()
-        self.sa_head = MultiHead(head_size, n_embd, n_heads)
-        self.ff = FeedForward(n_embd)
-        self.ln1 = nn.LayerNorm(n_embd)
-        self.ln2 = nn.LayerNorm(n_embd)
+# Define paths for saving checkpoints
+checkpoint_dir = "/home/wuw15/data_dir/cwproj/bert_checkpoints"
+os.makedirs(checkpoint_dir, exist_ok=True)
 
-    def forward(self, x, mask=None):
-        x = x + self.sa_head(self.ln1(x), mask=mask)
-        x = x + self.ff(self.ln2(x))
-        return x
+checkpoint_pattern = os.path.join(checkpoint_dir, "bert_checkpoint_epoch*.pth")
+def extract_epoch_num(filename):
+    basename = os.path.basename(filename)
+    match = re.search(r'bert_checkpoint_epoch(\d+)\.pth', basename)
+    if match:
+        return int(match.group(1))
+    else:
+        return None
+checkpoint_files = glob.glob(checkpoint_pattern)
+
+checkpoint_epochs = []
+for file in checkpoint_files:
+    epoch_num = extract_epoch_num(file)
+    if epoch_num is not None:
+        checkpoint_epochs.append((epoch_num, file))
+
+checkpoint_epochs.sort(key=lambda x: x[0])
 
 
-# Estimate Loss Function
-@torch.no_grad()
-def estimate_loss():
-    out = {}
-    model.eval()
-    for split in ['train', 'val']:
-        loader = train_loader if split == 'train' else val_loader
-        losses = []
-        for xb, yb, mask in loader:
-            xb, yb, mask = xb.to(device), yb.to(device), mask.to(device)
-            logits = model(xb, mask).squeeze()
-            loss = F.binary_cross_entropy_with_logits(logits, yb)
-            losses.append(loss.item())
-        out[split] = sum(losses) / len(losses)
+# Check if a checkpoint exists before training
+if checkpoint_epochs:
+    latest_epoch, latest_checkpoint = checkpoint_epochs[-1]
+    print(f"Loading checkpoint '{latest_checkpoint}' from epoch {latest_epoch}")
+    checkpoint = torch.load(latest_checkpoint)
+    model.load_state_dict(checkpoint['model_state_dict'])
+    optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
+    scheduler.load_state_dict(checkpoint['scheduler_state_dict'])
+    start_epoch = checkpoint['epoch'] + 1
+    model.to(device)  # Ensure model is on the correct device
+    print(f"Resuming training from epoch {start_epoch}")
+else:
+    print("No checkpoint found. Starting training from scratch.")
+    start_epoch = 0
+
+
+# 10. Training loop with checkpoint saving
+epochs = 5
+best_val_accuracy = 0.0  # For tracking the best model
+
+for epoch in range(start_epoch, epochs):
+    # Training
     model.train()
-    return out
-
-
-# GPTBinaryClassifier with mean pooling
-class GPTBinaryClassifier(nn.Module):
-    def __init__(self, vocab_size, n_embd, n_heads, n_layers, dropout):
-        super().__init__()
-        self.token_embedding_table = nn.Embedding(vocab_size, n_embd)
-        self.positional_embedding_table = nn.Embedding(1000, n_embd)  # Use a large enough max length
-        self.blocks = nn.ModuleList(
-            [Block(head_size, n_embd, n_heads) for _ in range(n_layers)]
+    total_train_loss = 0
+    for batch in tqdm(train_loader, desc=f"Training Epoch {epoch}"):
+        optimizer.zero_grad()
+        input_ids = batch['input_ids'].to(device)
+        attention_mask = batch['attention_mask'].to(device)
+        labels = batch['labels'].to(device)
+        outputs = model(
+            input_ids,
+            attention_mask=attention_mask,
+            labels=labels
         )
-        self.ln_f = nn.LayerNorm(n_embd)
-        self.classifier_head = nn.Linear(n_embd, 1)  # Single logit output for binary classification
+        loss = outputs.loss
+        total_train_loss += loss.item()
+        loss.backward()
+        optimizer.step()
+        scheduler.step()
+    
+    avg_train_loss = total_train_loss / len(train_loader)
+    print(f"Epoch {epoch} Training Loss: {avg_train_loss}")
+    
+    # Validation
+    model.eval()
+    val_labels_list = []
+    val_preds_list = []
+    total_val_loss = 0
+    with torch.no_grad():
+        for batch in tqdm(val_loader, desc=f"Validation Epoch {epoch}"):
+            input_ids = batch['input_ids'].to(device)
+            attention_mask = batch['attention_mask'].to(device)
+            labels = batch['labels'].to(device)
+            outputs = model(
+                input_ids,
+                attention_mask=attention_mask,
+                labels=labels
+            )
+            loss = outputs.loss
+            total_val_loss += loss.item()
+            logits = outputs.logits
+            preds = torch.argmax(logits, dim=1)
+            val_labels_list.extend(labels.cpu().numpy())
+            val_preds_list.extend(preds.cpu().numpy())
+    avg_val_loss = total_val_loss / len(val_loader)
+    val_accuracy = accuracy_score(val_labels_list, val_preds_list)
+    print(f"Epoch {epoch} Validation Loss: {avg_val_loss}")
+    print(f"Epoch {epoch} Validation Accuracy: {val_accuracy}")
+    
+    # Save checkpoint at the end of each epoch
+    checkpoint_path = os.path.join(checkpoint_dir, f"bert_checkpoint_epoch{epoch}.pth")
+    checkpoint = {
+        'epoch': epoch,
+        'model_state_dict': model.state_dict(),
+        'optimizer_state_dict': optimizer.state_dict(),
+        'scheduler_state_dict': scheduler.state_dict(),
+        'train_loss': avg_train_loss,
+        'val_loss': avg_val_loss,
+        'val_accuracy': val_accuracy,
+    }
+    torch.save(checkpoint, checkpoint_path)
+    print(f"Checkpoint saved at '{checkpoint_path}' after epoch {epoch}")
+    
+    # Optionally, save the best model based on validation accuracy
+    if val_accuracy > best_val_accuracy:
+        best_val_accuracy = val_accuracy
+        model.save_pretrained('best_model')
+        tokenizer.save_pretrained('best_model')
+        print(f"New best model saved with validation accuracy {best_val_accuracy:.4f}")
 
-    def forward(self, idx, mask):
-        B, T = idx.shape
-        tok_embd = self.token_embedding_table(idx)  # (B, T, n_embd)
-        pos_indices = torch.arange(T, device=idx.device)
-        pos_embd = self.positional_embedding_table(pos_indices)  # (T, n_embd)
-        x = tok_embd + pos_embd  # (B, T, n_embd)
-        for block in self.blocks:
-            x = block(x, mask=mask)
-        x = self.ln_f(x)  # (B, T, n_embd)
-        # Apply mask before pooling
-        x = x * mask.unsqueeze(-1)
-        x = x.sum(dim=1) / mask.sum(dim=1, keepdim=True)  # Mean pooling over valid tokens
-        logits = self.classifier_head(x)  # (B, 1)
-        return logits
-
-def collate_fn(batch):
-    texts, labels = zip(*batch)
-    # Get the lengths of each sequence
-    lengths = [len(x) for x in texts]
-    max_length = max(lengths)
-    # Pad sequences to the max length in the batch
-    padded_texts = [torch.cat([x, torch.zeros(max_length - len(x), dtype=torch.long)]) for x in texts]
-    # Stack into tensors
-    x = torch.stack(padded_texts)
-    y = torch.tensor(labels, dtype=torch.float)
-    # Create padding mask: 1 for real tokens, 0 for padding tokens
-    mask = torch.stack([torch.cat([torch.ones(len(x_i)), torch.zeros(max_length - len(x_i))]) for x_i in texts])
-    return x, y, mask
-
-# Training
-if __name__ == "__main__":
-    # Load the CSV file
-    df = pd.read_csv("/home/wuw15/data_dir/cwproj/dataset_9062.csv")
-    texts = df['text'].tolist()
-    labels = df['label'].tolist()
-    labels = [float(label) for label in labels]  # Ensure labels are floats
-
-    # Train-test split
-    train_ratio = 0.8
-    n_train = int(len(texts) * train_ratio)
-    train_texts, val_texts = texts[:n_train], texts[n_train:]
-    train_labels, val_labels = labels[:n_train], labels[n_train:]
-
-    # Tokenizer
-    tokenizer = tiktoken.get_encoding("cl100k_base")
-
-    # Prepare datasets and dataloaders
-    train_dataset = BinaryDataset(train_texts, train_labels, tokenizer)
-    val_dataset = BinaryDataset(val_texts, val_labels, tokenizer)
-
-    train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, collate_fn=collate_fn)
-    val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False, collate_fn=collate_fn)
-
-    # Initialize model and optimizer
-    vocab_size = tokenizer.n_vocab
-    model = GPTBinaryClassifier(vocab_size, n_embd, n_heads, n_layers, dropout).to(device)
-    optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
-
-    # Training loop
-    for iter in range(max_iters):
-        model.train()
-        for xb, yb, mask in train_loader:
-            xb, yb, mask = xb.to(device), yb.to(device), mask.to(device)
-            optimizer.zero_grad()
-            logits = model(xb, mask).squeeze()
-            loss = F.binary_cross_entropy_with_logits(logits, yb)
-            loss.backward()
-            torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
-            optimizer.step()
-        # Evaluate periodically
-        if iter % eval_interval == 0:
-            losses = estimate_loss()
-            print(f"Iter {iter}, Train Loss: {losses['train']:.4f}, Val Loss: {losses['val']:.4f}")
-
-
-    # Save the trained model
-    torch.save(model.state_dict(), "/home/wuw15/data_dir/cwproj/gpt_binary_classifier2.pth")
+# 11. Save the final trained model
+model.save_pretrained('saved_model')
+tokenizer.save_pretrained('saved_model')
