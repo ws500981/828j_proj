@@ -91,12 +91,12 @@ def create_pair_set(words, pair_type, no_pairs, typee='word'):
     pairs = set()
     if pair_type == 'contradict':
         while len(pairs) < no_pairs:
-            word = random.sample(words,1)[0] if typee == 'synthetic' else words.iloc[random.randint(0, len(words))]
+            word = random.sample(words,1)[0] if typee == 'synthetic' else words.iloc[random.randint(0, len(words)-1)]
             pair = (word, word) if typee == 'synthetic' else (word.iloc[0], word.iloc[1])
             pairs.add(pair)
     elif pair_type == 'entail':
         while len(pairs) < no_pairs:
-            word = sorted(random.sample(words,2)) if typee == 'synthetic' else words.iloc[random.randint(0, len(words))]
+            word = sorted(random.sample(words,2)) if typee == 'synthetic' else words.iloc[random.randint(0, len(words)-1)]
             pair = (word[0], word[1]) if typee == 'synthetic' else (word.iloc[1], word.iloc[0])
             pairs.add(pair)
     return list(pairs)
