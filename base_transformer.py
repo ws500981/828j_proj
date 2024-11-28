@@ -36,8 +36,7 @@ class BinaryDataset(Dataset):
         x = torch.tensor(tokens, dtype=torch.long)
         return x, torch.tensor(label, dtype=torch.float)
 
-# Self-Attention Head with Masking
-# Self-Attention Head without Causal Masking
+
 class Head(nn.Module):
     def __init__(self, head_size, n_embd):
         super().__init__()
@@ -61,7 +60,7 @@ class Head(nn.Module):
         return wei @ v  # (B, T, head_size)
 
 
-# Multi-Head Attention without block_size
+
 class MultiHead(nn.Module):
     def __init__(self, head_size, n_embd, n_heads):
         super().__init__()
@@ -76,7 +75,7 @@ class MultiHead(nn.Module):
         return x
 
 
-# Feed-Forward Network
+
 class FeedForward(nn.Module):
     def __init__(self, n_embd):
         super().__init__()
@@ -90,7 +89,7 @@ class FeedForward(nn.Module):
     def forward(self, x):
         return self.net(x)
 
-# Block without block_size
+
 class Block(nn.Module):
     def __init__(self, head_size, n_embd, n_heads):
         super().__init__()
@@ -105,7 +104,7 @@ class Block(nn.Module):
         return x
 
 
-# Estimate Loss Function
+
 @torch.no_grad()
 def estimate_loss():
     out = {}
@@ -123,7 +122,7 @@ def estimate_loss():
     return out
 
 
-# GPTBinaryClassifier with mean pooling
+
 class GPTBinaryClassifier(nn.Module):
     def __init__(self, vocab_size, n_embd, n_heads, n_layers, dropout):
         super().__init__()
