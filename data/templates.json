@@ -1,1 +1,6134 @@
-{"contradiction": [["Given {0} contradicts {1}, does {0} forward entail {1}?", "No"], ["Given {0} contradicts {1}, does {0} forward entail not {1}?", "Yes"], ["Given {0} contradicts {1}, does not {0} forward entail {1}?", "Yes"], ["Given {0} contradicts {1}, does not {0} forward entail not {1}?", "No"], ["Given {0} contradicts {1}, does {1} forward entail {0}?", "No"], ["Given {0} contradicts {1}, does {1} forward entail not {0}?", "Yes"], ["Given {0} contradicts {1}, does not {1} forward entail {0}?", "Yes"], ["Given {0} contradicts {1}, does not {1} forward entail not {0}?", "No"], ["Given {1} contradicts {0}, does {0} forward entail {1}?", "No"], ["Given {1} contradicts {0}, does {0} forward entail not {1}?", "Yes"], ["Given {1} contradicts {0}, does not {0} forward entail {1}?", "Yes"], ["Given {1} contradicts {0}, does not {0} forward entail not {1}?", "No"], ["Given {1} contradicts {0}, does {1} forward entail {0}?", "No"], ["Given {1} contradicts {0}, does {1} forward entail not {0}?", "Yes"], ["Given {1} contradicts {0}, does not {1} forward entail {0}?", "Yes"], ["Given {1} contradicts {0}, does not {1} forward entail not {0}?", "No"], ["Given {0} contradicts {1}, does {0} reverse entail {1}?", "No"], ["Given {0} contradicts {1}, does {0} reverse entail not {1}?", "Yes"], ["Given {0} contradicts {1}, does not {0} reverse entail {1}?", "Yes"], ["Given {0} contradicts {1}, does not {0} reverse entail not {1}?", "No"], ["Given {0} contradicts {1}, does {1} reverse entail {0}?", "No"], ["Given {0} contradicts {1}, does {1} reverse entail not {0}?", "Yes"], ["Given {0} contradicts {1}, does not {1} reverse entail {0}?", "Yes"], ["Given {0} contradicts {1}, does not {1} reverse entail not {0}?", "No"], ["Given {1} contradicts {0}, does {0} reverse entail {1}?", "No"], ["Given {1} contradicts {0}, does {0} reverse entail not {1}?", "Yes"], ["Given {1} contradicts {0}, does not {0} reverse entail {1}?", "Yes"], ["Given {1} contradicts {0}, does not {0} reverse entail not {1}?", "No"], ["Given {1} contradicts {0}, does {1} reverse entail {0}?", "No"], ["Given {1} contradicts {0}, does {1} reverse entail not {0}?", "Yes"], ["Given {1} contradicts {0}, does not {1} reverse entail {0}?", "Yes"], ["Given {1} contradicts {0}, does not {1} reverse entail not {0}?", "No"], ["Given {0} contradicts {1}, does {0} contradict not {1}?", "No"], ["Given {0} contradicts {1}, does not {0} contradict {1}?", "No"], ["Given {0} contradicts {1}, does not {0} contradict not {1}?", "Yes"], ["Given {0} contradicts {1}, does {1} contradict {0}?", "Yes"], ["Given {0} contradicts {1}, does {1} contradict not {0}?", "No"], ["Given {0} contradicts {1}, does not {1} contradict {0}?", "No"], ["Given {0} contradicts {1}, does not {1} contradict not {0}?", "Yes"], ["Given {1} contradicts {0}, does {0} contradict {1}?", "Yes"], ["Given {1} contradicts {0}, does {0} contradict not {1}?", "No"], ["Given {1} contradicts {0}, does not {0} contradict {1}?", "No"], ["Given {1} contradicts {0}, does not {0} contradict not {1}?", "Yes"], ["Given {1} contradicts {0}, does {1} contradict not {0}?", "No"], ["Given {1} contradicts {0}, does not {1} contradict {0}?", "No"], ["Given {1} contradicts {0}, does not {1} contradict not {0}?", "Yes"]], "entailment": [["Given {0} forward entails {1}, does {0} forward entail not {1}?", "No"], ["Given {0} forward entails {1}, does not {0} forward entail {1}?", "No"], ["Given {0} forward entails {1}, does not {0} forward entail not {1}?", "No"], ["Given {0} forward entails {1}, does {1} forward entail {0}?", "No"], ["Given {0} forward entails {1}, does {1} forward entail not {0}?", "No"], ["Given {0} forward entails {1}, does not {1} forward entail {0}?", "No"], ["Given {0} forward entails {1}, does not {1} forward entail not {0}?", "Yes"], ["Given {0} forward entails {1}, does {0} reverse entail {1}?", "No"], ["Given {0} forward entails {1}, does {0} reverse entail not {1}?", "No"], ["Given {0} forward entails {1}, does not {0} reverse entail {1}?", "No"], ["Given {0} forward entails {1}, does not {0} reverse entail not {1}?", "Yes"], ["Given {0} forward entails {1}, does {1} reverse entail {0}?", "Yes"], ["Given {0} forward entails {1}, does {1} reverse entail not {0}?", "No"], ["Given {0} forward entails {1}, does not {1} reverse entail {0}?", "No"], ["Given {0} forward entails {1}, does not {1} reverse entail not {0}?", "No"], ["Given {0} forward entails {1}, does {0} contradict {1}?", "No"], ["Given {0} forward entails {1}, does {0} contradict not {1}?", "No"], ["Given {0} forward entails {1}, does not {0} contradict {1}?", "No"], ["Given {0} forward entails {1}, does not {0} contradict not {1}?", "No"], ["Given {0} forward entails {1}, does {1} contradict {0}?", "No"], ["Given {0} forward entails {1}, does {1} contradict not {0}?", "No"], ["Given {0} forward entails {1}, does not {1} contradict {0}?", "No"], ["Given {0} forward entails {1}, does not {1} contradict not {0}?", "No"], ["Given {1} reverse entails {0}, does {0} contradict {1}?", "No"], ["Given {1} reverse entails {0}, does {0} contradict not {1}?", "No"], ["Given {1} reverse entails {0}, does not {0} contradict {1}?", "No"], ["Given {1} reverse entails {0}, does not {0} contradict not {1}?", "No"], ["Given {1} reverse entails {0}, does {1} contradict {0}?", "No"], ["Given {1} reverse entails {0}, does {1} contradict not {0}?", "No"], ["Given {1} reverse entails {0}, does not {1} contradict {0}?", "No"], ["Given {1} reverse entails {0}, does not {1} contradict not {0}?", "No"], ["Given {1} reverse entails {0}, does {0} forward entail {1}?", "Yes"], ["Given {1} reverse entails {0}, does {0} forward entail not {1}?", "No"], ["Given {1} reverse entails {0}, does not {0} forward entail {1}?", "No"], ["Given {1} reverse entails {0}, does not {0} forward entail not {1}?", "No"], ["Given {1} reverse entails {0}, does {1} forward entail {0}?", "No"], ["Given {1} reverse entails {0}, does {1} forward entail not {0}?", "No"], ["Given {1} reverse entails {0}, does not {1} forward entail {0}?", "No"], ["Given {1} reverse entails {0}, does not {1} forward entail not {0}?", "Yes"], ["Given {1} reverse entails {0}, does {0} reverse entail not {1}?", "No"], ["Given {1} reverse entails {0}, does not {0} reverse entail {1}?", "No"], ["Given {1} reverse entails {0}, does not {0} reverse entail not {1}?", "Yes"], ["Given {1} reverse entails {0}, does {0} reverse entail {1}?", "No"], ["Given {1} reverse entails {0}, does {1} reverse entail not {0}?", "No"], ["Given {1} reverse entails {0}, does not {1} reverse entail {0}?", "No"], ["Given {1} reverse entails {0}, does not {1} reverse entail not {0}?", "No"]]}
+{
+    "contradict": [
+      [
+        "Given {A} contradicts {B}, does {A} forward entail {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {A} forward entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {A} forward entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {A} forward entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {A} forward entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {A} forward entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {A} forward entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {A} forward entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does {A} forward entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {A} forward entail any {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {A} forward entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {A} forward entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {A} forward entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {A} forward entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {A} forward entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {A} forward entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {A} forward entail most {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {A} forward entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {A} forward entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {A} forward entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {A} forward entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {A} forward entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {A} forward entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {A} forward entail some {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {A} forward entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {A} forward entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {A} forward entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {A} forward entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {A} forward entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {A} forward entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {A} forward entail few {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {A} forward entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {A} forward entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {A} forward entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {A} forward entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {A} forward entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {A} forward entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {A} forward entail each {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {A} forward entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {A} forward entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {A} forward entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {A} forward entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {A} forward entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {A} forward entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {A} forward entail one {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {A} forward entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {A} forward entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {A} forward entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {A} forward entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {A} forward entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {A} forward entail {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {A} forward entail {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {A} forward entail {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {A} forward entail {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {A} forward entail {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {A} forward entail {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {A} forward entail {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {A} forward entail not {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {A} forward entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {A} forward entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {A} forward entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {A} forward entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {A} forward entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {A} forward entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {B} forward entail {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {B} forward entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {B} forward entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {B} forward entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {B} forward entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {B} forward entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {B} forward entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {B} forward entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does {B} forward entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {B} forward entail any {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {B} forward entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {B} forward entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {B} forward entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {B} forward entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {B} forward entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {B} forward entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {B} forward entail most {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {B} forward entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {B} forward entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {B} forward entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {B} forward entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {B} forward entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {B} forward entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {B} forward entail some {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {B} forward entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {B} forward entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {B} forward entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {B} forward entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {B} forward entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {B} forward entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {B} forward entail few {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {B} forward entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {B} forward entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {B} forward entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {B} forward entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {B} forward entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {B} forward entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {B} forward entail each {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {B} forward entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {B} forward entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {B} forward entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {B} forward entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {B} forward entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {B} forward entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {B} forward entail one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {B} forward entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {B} forward entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {B} forward entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {B} forward entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {B} forward entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {B} forward entail {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {B} forward entail {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {B} forward entail {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {B} forward entail {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {B} forward entail {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {B} forward entail {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {B} forward entail {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {B} forward entail not {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {B} forward entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {B} forward entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {B} forward entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {B} forward entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {B} forward entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {B} forward entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {A} forward entail {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {A} forward entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {A} forward entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {A} forward entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {A} forward entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {A} forward entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {A} forward entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {A} forward entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does {A} forward entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {A} forward entail any {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {A} forward entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {A} forward entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {A} forward entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {A} forward entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {A} forward entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {A} forward entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {A} forward entail most {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {A} forward entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {A} forward entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {A} forward entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {A} forward entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {A} forward entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {A} forward entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {A} forward entail some {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {A} forward entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {A} forward entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {A} forward entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {A} forward entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {A} forward entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {A} forward entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {A} forward entail few {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {A} forward entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {A} forward entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {A} forward entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {A} forward entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {A} forward entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {A} forward entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {A} forward entail each {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {A} forward entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {A} forward entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {A} forward entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {A} forward entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {A} forward entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {A} forward entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {A} forward entail one {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {A} forward entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {A} forward entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {A} forward entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {A} forward entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {A} forward entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {A} forward entail {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {A} forward entail {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {A} forward entail {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {A} forward entail {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {A} forward entail {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {A} forward entail {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {A} forward entail {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {A} forward entail not {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {A} forward entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {A} forward entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {A} forward entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {A} forward entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {A} forward entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {A} forward entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {B} forward entail {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {B} forward entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {B} forward entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {B} forward entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {B} forward entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {B} forward entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {B} forward entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} forward entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does {B} forward entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {B} forward entail any {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {B} forward entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {B} forward entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {B} forward entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {B} forward entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} forward entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {B} forward entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {B} forward entail most {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {B} forward entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {B} forward entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {B} forward entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {B} forward entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} forward entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {B} forward entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {B} forward entail some {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {B} forward entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {B} forward entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {B} forward entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {B} forward entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} forward entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {B} forward entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {B} forward entail few {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {B} forward entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {B} forward entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {B} forward entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {B} forward entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} forward entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {B} forward entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {B} forward entail each {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {B} forward entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {B} forward entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {B} forward entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {B} forward entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} forward entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {B} forward entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {B} forward entail one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {B} forward entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {B} forward entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {B} forward entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {B} forward entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {B} forward entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {B} forward entail {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {B} forward entail {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {B} forward entail {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {B} forward entail {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {B} forward entail {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {B} forward entail {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} forward entail {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {B} forward entail not {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {B} forward entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {B} forward entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {B} forward entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {B} forward entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {B} forward entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} forward entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {A} reverse entail {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {A} reverse entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {A} reverse entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {A} reverse entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {A} reverse entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {A} reverse entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {A} reverse entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {A} reverse entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does {A} reverse entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {A} reverse entail any {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {A} reverse entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {A} reverse entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {A} reverse entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {A} reverse entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {A} reverse entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {A} reverse entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {A} reverse entail most {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {A} reverse entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {A} reverse entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {A} reverse entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {A} reverse entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {A} reverse entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {A} reverse entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {A} reverse entail some {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {A} reverse entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {A} reverse entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {A} reverse entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {A} reverse entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {A} reverse entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {A} reverse entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {A} reverse entail few {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {A} reverse entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {A} reverse entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {A} reverse entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {A} reverse entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {A} reverse entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {A} reverse entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {A} reverse entail each {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {A} reverse entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {A} reverse entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {A} reverse entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {A} reverse entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {A} reverse entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {A} reverse entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {A} reverse entail one {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {A} reverse entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {A} reverse entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {A} reverse entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {A} reverse entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {A} reverse entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {A} reverse entail {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {A} reverse entail {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {A} reverse entail {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {A} reverse entail {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {A} reverse entail {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {A} reverse entail {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {A} reverse entail {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {A} reverse entail not {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {A} reverse entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {A} reverse entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {A} reverse entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {A} reverse entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {A} reverse entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {A} reverse entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {B} reverse entail {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {B} reverse entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {B} reverse entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {B} reverse entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {B} reverse entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {B} reverse entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {B} reverse entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {B} reverse entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does {B} reverse entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {B} reverse entail any {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {B} reverse entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {B} reverse entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {B} reverse entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {B} reverse entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {B} reverse entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {B} reverse entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {B} reverse entail most {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {B} reverse entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {B} reverse entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {B} reverse entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {B} reverse entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {B} reverse entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {B} reverse entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {B} reverse entail some {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {B} reverse entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {B} reverse entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {B} reverse entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {B} reverse entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {B} reverse entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {B} reverse entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {B} reverse entail few {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {B} reverse entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {B} reverse entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {B} reverse entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {B} reverse entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {B} reverse entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {B} reverse entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {B} reverse entail each {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {B} reverse entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {B} reverse entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {B} reverse entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {B} reverse entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {B} reverse entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {B} reverse entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {B} reverse entail one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {B} reverse entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {B} reverse entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {B} reverse entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {B} reverse entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {B} reverse entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {B} reverse entail {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {B} reverse entail {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {B} reverse entail {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {B} reverse entail {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {B} reverse entail {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {B} reverse entail {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {B} reverse entail {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {B} reverse entail not {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {B} reverse entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {B} reverse entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {B} reverse entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {B} reverse entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {B} reverse entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {B} reverse entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {A} reverse entail {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {A} reverse entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {A} reverse entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {A} reverse entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {A} reverse entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {A} reverse entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {A} reverse entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {A} reverse entail not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does {A} reverse entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {A} reverse entail any {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {A} reverse entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {A} reverse entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {A} reverse entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {A} reverse entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {A} reverse entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {A} reverse entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {A} reverse entail most {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {A} reverse entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {A} reverse entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {A} reverse entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {A} reverse entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {A} reverse entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {A} reverse entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {A} reverse entail some {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {A} reverse entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {A} reverse entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {A} reverse entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {A} reverse entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {A} reverse entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {A} reverse entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {A} reverse entail few {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {A} reverse entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {A} reverse entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {A} reverse entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {A} reverse entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {A} reverse entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {A} reverse entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {A} reverse entail each {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {A} reverse entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {A} reverse entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {A} reverse entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {A} reverse entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {A} reverse entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {A} reverse entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {A} reverse entail one {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {A} reverse entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {A} reverse entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {A} reverse entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {A} reverse entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {A} reverse entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {A} reverse entail {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {A} reverse entail {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {A} reverse entail {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {A} reverse entail {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {A} reverse entail {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {A} reverse entail {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {A} reverse entail {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {A} reverse entail not {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {A} reverse entail any {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {A} reverse entail most {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {A} reverse entail some {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {A} reverse entail few {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {A} reverse entail each {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {A} reverse entail one {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {B} reverse entail {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {B} reverse entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {B} reverse entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {B} reverse entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {B} reverse entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {B} reverse entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {B} reverse entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} reverse entail not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does {B} reverse entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {B} reverse entail any {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {B} reverse entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {B} reverse entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {B} reverse entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {B} reverse entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} reverse entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {B} reverse entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {B} reverse entail most {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {B} reverse entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {B} reverse entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {B} reverse entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {B} reverse entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} reverse entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {B} reverse entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {B} reverse entail some {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {B} reverse entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {B} reverse entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {B} reverse entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {B} reverse entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} reverse entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {B} reverse entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {B} reverse entail few {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {B} reverse entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {B} reverse entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {B} reverse entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {B} reverse entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} reverse entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {B} reverse entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {B} reverse entail each {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {B} reverse entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {B} reverse entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {B} reverse entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {B} reverse entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} reverse entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {B} reverse entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {B} reverse entail one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {B} reverse entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {B} reverse entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {B} reverse entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {B} reverse entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {B} reverse entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {B} reverse entail {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {B} reverse entail {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {B} reverse entail {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {B} reverse entail {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {B} reverse entail {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {B} reverse entail {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} reverse entail {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {B} reverse entail not {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {B} reverse entail any {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {B} reverse entail most {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {B} reverse entail some {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {B} reverse entail few {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {B} reverse entail each {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} reverse entail one {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {A} contradict not {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {A} contradict not {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {A} contradict not {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {A} contradict not {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {A} contradict not {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {A} contradict not {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {A} contradict not {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {A} contradict any {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {A} contradict any {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {A} contradict any {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {A} contradict any {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {A} contradict any {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {A} contradict any {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {A} contradict any {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does {A} contradict most {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {A} contradict most {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {A} contradict most {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {A} contradict most {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {A} contradict most {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {A} contradict most {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {A} contradict most {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does {A} contradict some {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {A} contradict some {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {A} contradict some {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {A} contradict some {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {A} contradict some {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {A} contradict some {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {A} contradict some {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does {A} contradict few {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {A} contradict few {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {A} contradict few {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {A} contradict few {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {A} contradict few {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {A} contradict few {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {A} contradict few {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does {A} contradict each {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {A} contradict each {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {A} contradict each {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {A} contradict each {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {A} contradict each {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {A} contradict each {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {A} contradict each {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does {A} contradict one {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {A} contradict one {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {A} contradict one {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {A} contradict one {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {A} contradict one {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {A} contradict one {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {A} contradict one {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {A} contradict {B}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {A} contradict {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {A} contradict {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {A} contradict {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {A} contradict {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {A} contradict {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {A} contradict {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {A} contradict not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {A} contradict any {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {A} contradict most {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {A} contradict some {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {A} contradict few {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {A} contradict each {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {A} contradict one {B}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does {B} contradict {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does {B} contradict not {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {B} contradict not {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {B} contradict not {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {B} contradict not {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {B} contradict not {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {B} contradict not {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {B} contradict not {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does {B} contradict any {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {B} contradict any {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {B} contradict any {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {B} contradict any {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {B} contradict any {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {B} contradict any {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {B} contradict any {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does {B} contradict most {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {B} contradict most {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {B} contradict most {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {B} contradict most {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {B} contradict most {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {B} contradict most {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {B} contradict most {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does {B} contradict some {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {B} contradict some {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {B} contradict some {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {B} contradict some {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {B} contradict some {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {B} contradict some {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {B} contradict some {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does {B} contradict few {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {B} contradict few {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {B} contradict few {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {B} contradict few {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {B} contradict few {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {B} contradict few {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {B} contradict few {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does {B} contradict each {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {B} contradict each {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {B} contradict each {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {B} contradict each {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {B} contradict each {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {B} contradict each {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {B} contradict each {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {B} contradict one {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {B} contradict {A}?",
+        "No"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {B} contradict {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {B} contradict {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {B} contradict {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {B} contradict {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {B} contradict {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {B} contradict {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does not {B} contradict not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does any {B} contradict any {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does most {B} contradict most {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does some {B} contradict some {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does few {B} contradict few {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does each {B} contradict each {A}?",
+        "Yes"
+      ],
+      [
+        "Given {A} contradicts {B}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does {A} contradict {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does {A} contradict not {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {A} contradict not {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {A} contradict not {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {A} contradict not {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {A} contradict not {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {A} contradict not {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {A} contradict not {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {A} contradict any {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {A} contradict any {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {A} contradict any {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {A} contradict any {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {A} contradict any {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {A} contradict any {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {A} contradict any {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does {A} contradict most {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {A} contradict most {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {A} contradict most {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {A} contradict most {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {A} contradict most {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {A} contradict most {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {A} contradict most {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does {A} contradict some {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {A} contradict some {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {A} contradict some {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {A} contradict some {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {A} contradict some {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {A} contradict some {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {A} contradict some {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does {A} contradict few {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {A} contradict few {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {A} contradict few {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {A} contradict few {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {A} contradict few {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {A} contradict few {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {A} contradict few {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does {A} contradict each {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {A} contradict each {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {A} contradict each {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {A} contradict each {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {A} contradict each {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {A} contradict each {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {A} contradict each {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does {A} contradict one {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {A} contradict one {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {A} contradict one {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {A} contradict one {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {A} contradict one {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {A} contradict one {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {A} contradict one {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {A} contradict {B}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {A} contradict {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {A} contradict {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {A} contradict {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {A} contradict {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {A} contradict {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {A} contradict {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {A} contradict not {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {A} contradict any {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {A} contradict most {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {A} contradict some {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {A} contradict few {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {A} contradict each {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {A} contradict one {B}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does {B} contradict not {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {B} contradict not {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {B} contradict not {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {B} contradict not {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {B} contradict not {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {B} contradict not {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict not {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does {B} contradict any {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {B} contradict any {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {B} contradict any {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {B} contradict any {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {B} contradict any {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {B} contradict any {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict any {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does {B} contradict most {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {B} contradict most {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {B} contradict most {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {B} contradict most {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {B} contradict most {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {B} contradict most {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict most {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does {B} contradict some {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {B} contradict some {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {B} contradict some {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {B} contradict some {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {B} contradict some {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {B} contradict some {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict some {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does {B} contradict few {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {B} contradict few {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {B} contradict few {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {B} contradict few {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {B} contradict few {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {B} contradict few {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict few {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does {B} contradict each {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {B} contradict each {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {B} contradict each {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {B} contradict each {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {B} contradict each {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {B} contradict each {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict each {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {B} contradict one {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {B} contradict {A}?",
+        "No"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {B} contradict {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {B} contradict {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {B} contradict {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {B} contradict {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {B} contradict {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does not {B} contradict not {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does any {B} contradict any {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does most {B} contradict most {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does some {B} contradict some {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does few {B} contradict few {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does each {B} contradict each {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ]
+    ],
+    "entail": [
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ],
+      [
+        "Given {B} contradicts {A}, does one {B} contradict one {A}?",
+        "Yes"
+      ]
+    ]
+  }
