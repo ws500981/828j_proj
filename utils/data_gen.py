@@ -54,6 +54,36 @@ plants = pd.DataFrame({'type': ['plant'] * len(flower_list), 'name': flower_list
 
 combined = pd.concat([flowers, plants, countries, places, nations, kingdoms, animals, creatures], axis = 0)
 
+listt = list(combined['type']) + list(combined['name']) # 316 words
+listt1 = list(antonyms['antonyms']) + list(antonyms['lemma']) # 196 words
+#-------------------------------------------------------------------
+science_list = ["mathematics", "physics", "chemistry", "biology", "astronomy", "botany", "engineering", "medicine", "aeronautics", 
+                "zoology", "geology", "ecology", "agronomy", "paleontology", "Oncology"] # 15 branches of science
+sciences = pd.DataFrame({'type': ['science'] * len(science_list), 'name': science_list})
+fields = pd.DataFrame({'type': ['field'] * len(science_list), 'name': science_list})
+specializations = pd.DataFrame({'type': ['specialization'] * len(science_list), 'name': science_list})
+areas = pd.DataFrame({'type': ['area'] * len(science_list), 'name': science_list})
+branches = pd.DataFrame({'type': ['branch'] * len(science_list), 'name': science_list})
+domains = pd.DataFrame({'type': ['domain'] * len(science_list), 'name': science_list})
+
+electronic_list = ["phone", "handphone", "telephone", "cellphone", "TV", "earpiece", "earphone", "headset", "computer", "television",
+                   "ipad", "kindle", "keyboard", "mouse", "speaker", "calculator", "aircon", "fridge", "refreiderator", "microwave",
+                   "washing machine", "air purifier", "hairdrier", "fan", "kettle", "radio", "clock", "watch", "heater", "battery"]
+
+electronics = pd.DataFrame({'type': ['electronic'] * len(electronic_list), 'name': electronic_list})
+appliances = pd.DataFrame({'type': ['appliance'] * len(electronic_list), 'name': electronic_list})
+devices = pd.DataFrame({'type': ['device'] * len(electronic_list), 'name': electronic_list})
+machines = pd.DataFrame({'type': ['machine'] * len(electronic_list), 'name': electronic_list})
+tools = pd.DataFrame({'type': ['tool'] * len(electronic_list), 'name': electronic_list})
+
+
+antonyms_test = pd.read_csv('/home/wuw15/data_dir/cwproj/data/antonyms_test.csv')[['lemma', 'antonyms']]
+
+combined_test = pd.concat([sciences, fields, specializations, areas, branches, domains, electronics, appliances, machines, tools], axis = 0)
+
+listt1_test = list(antonyms_test['antonyms']) + list(antonyms_test['lemma']) # 191 words
+listt_test = list(combined_test['type']) + list(combined_test['name']) # 55 words
+
 #-------------------------------------------------------------------
 # generate synthetic words: no semantic meaning at all
 # variable lengths
@@ -240,36 +270,104 @@ def generate_entailment_sequences(dataset0, dataset1, n_samples):
 
 #-------------------------------------------------------------------
 # use synthetic words with fixed length
-no_pairs = 20
-synthetic_words = generate_random_words_fixed_len(20, 4)
+no_pairs = 200 #--> less than 200 words
+synthetic_words = generate_random_words_fixed_len(no_pairs*1.5, 4)
 dataset0 = create_pair_set(synthetic_words, 'contradict', no_pairs, typee = 'synthetic')
 dataset1 = create_pair_set(synthetic_words, 'entail', no_pairs, typee = 'synthetic') # includes forward and reverse entail
+
+n_samples = 50000
+sequences = generate_entailment_sequences(dataset0, dataset1, n_samples)
+# --> 11345 sequences
 
 # use synthetic words with variable length
-no_pairs = 20
-synthetic_words = generate_random_words_var_len(20,)
+no_pairs = 200
+synthetic_words = generate_random_words_var_len(int(no_pairs*1.5))
 dataset0 = create_pair_set(synthetic_words, 'contradict', no_pairs, typee = 'synthetic')
 dataset1 = create_pair_set(synthetic_words, 'entail', no_pairs, typee = 'synthetic') # includes forward and reverse entail
+
+n_samples = 50000
+sequences = generate_entailment_sequences(dataset0, dataset1, n_samples)
+# --> 11358 sequences
 
 # use numbers
-no_pairs = 20
-synthetic_words = generate_random_numbers_fixed_range(20, 1e3)
+no_pairs = 200
+synthetic_words = generate_random_numbers_fixed_range(no_pairs*1.5, 1e3)
 dataset0 = create_pair_set(synthetic_words, 'contradict', no_pairs, typee = 'synthetic')
 dataset1 = create_pair_set(synthetic_words, 'entail', no_pairs, typee = 'synthetic') # includes forward and reverse entail
+n_samples = 50000
+sequences = generate_entailment_sequences(dataset0, dataset1, n_samples)
+# --> 11384 sequences
 
 # use actual words
+no_pairs = 100
 dataset0 = create_pair_set(antonyms, 'contradict', no_pairs, typee = 'word')
 dataset1 = create_pair_set(combined, 'entail', no_pairs, typee = 'word')
 
+n_samples = 50000
+sequences = generate_entailment_sequences(dataset0, dataset1, n_samples)
+# --> 9062 sequences
 #-------------------------------------------------------------------
 
-n_samples = 20
+n_samples = 50000
 sequences = generate_entailment_sequences(dataset0, dataset1, n_samples)
 
+#-------------------------------------------------------------------
 # create dataset
+# train
 sequences = list(sequences)
 texts = [item.split('? ')[0]+'?' for item in sequences]
 labels = [0 if item.split('? ')[1] == 'No' else 1 for item in sequences]
 dataset = pd.DataFrame({'text': texts, 'label': labels})
-dataset.to_csv('/home/wuw15/data_dir/cwproj/dataset.csv', index=False)
+dataset.to_csv('/home/wuw15/data_dir/cwproj/sword_varlen_dataset_11358.csv', index=False)
 
+#-------------------------------------------------------------------
+# test
+no_pairs = 80 
+synthetic_words = generate_random_words_fixed_len(no_pairs*1.5, 5)
+dataset0 = create_pair_set(synthetic_words, 'contradict', no_pairs, typee = 'synthetic')
+dataset1 = create_pair_set(synthetic_words, 'entail', no_pairs, typee = 'synthetic') # includes forward and reverse entail
+
+n_samples = 300
+sequences = generate_entailment_sequences(dataset0, dataset1, n_samples)
+# --> 289 sequences
+
+
+# use synthetic words with variable length
+no_pairs = 80
+synthetic_words = generate_random_words_var_len(int(no_pairs*1.5))
+dataset0 = create_pair_set(synthetic_words, 'contradict', no_pairs, typee = 'synthetic')
+dataset1 = create_pair_set(synthetic_words, 'entail', no_pairs, typee = 'synthetic') # includes forward and reverse entail
+
+n_samples = 300
+sequences1 = generate_entailment_sequences(dataset0, dataset1, n_samples)
+# --> 286 sequences
+
+
+# use numbers
+no_pairs = 80
+synthetic_words = generate_random_numbers_fixed_range(no_pairs*1.5, 1e3)
+dataset0 = create_pair_set(synthetic_words, 'contradict', no_pairs, typee = 'synthetic')
+dataset1 = create_pair_set(synthetic_words, 'entail', no_pairs, typee = 'synthetic') # includes forward and reverse entail
+n_samples = 300
+sequences2 = generate_entailment_sequences(dataset0, dataset1, n_samples)
+# --> 293 sequences
+
+
+# test
+no_pairs = 80
+dataset0 = create_pair_set(antonyms_test, 'contradict', no_pairs, typee = 'word')
+dataset1 = create_pair_set(combined_test, 'entail', no_pairs, typee = 'word')
+
+n_samples = 300
+sequences3 = generate_entailment_sequences(dataset0, dataset1, n_samples)
+# --> 297 sequences
+
+sequences.update(sequences1)
+sequences.update(sequences2)
+sequences.update(sequences3) # --> 1165 sequences
+
+sequences_test = list(sequences)
+texts = [item.split('? ')[0]+'?' for item in sequences_test]
+labels = [0 if item.split('? ')[1] == 'No' else 1 for item in sequences_test]
+dataset = pd.DataFrame({'text': texts, 'label': labels})
+dataset.to_csv('/home/wuw15/data_dir/cwproj/dataset_test_1165.csv', index=False)
