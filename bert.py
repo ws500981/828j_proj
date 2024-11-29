@@ -9,9 +9,10 @@ from tqdm import tqdm
 import os
 import glob
 
+datasett = '11384'
 # 1. Prepare your dataset
 # Replace this with your actual data loading logic
-df = pd.read_csv("/home/wuw15/data_dir/cwproj/dataset.csv")
+df = pd.read_csv(f"/home/wuw15/data_dir/cwproj/dataset_{datasett}.csv")
 
 # 2. Split the data into training and validation sets
 train_texts, val_texts, train_labels, val_labels = train_test_split(
@@ -67,7 +68,7 @@ val_loader = DataLoader(val_dataset, batch_size=8, shuffle=False)
 optimizer = AdamW(model.parameters(), lr=5e-5)
 
 # Total number of training steps
-total_steps = len(train_loader) * 3  # epochs = 3
+total_steps = len(train_loader) * 5  # epochs = 5
 
 scheduler = get_linear_schedule_with_warmup(
     optimizer,
@@ -76,7 +77,7 @@ scheduler = get_linear_schedule_with_warmup(
 )
 
 # Define paths for saving checkpoints
-checkpoint_dir = "/home/wuw15/data_dir/cwproj/bert_checkpoints"
+checkpoint_dir = f"/home/wuw15/data_dir/cwproj/bert_checkpoints_{datasett}"
 os.makedirs(checkpoint_dir, exist_ok=True)
 
 checkpoint_pattern = os.path.join(checkpoint_dir, "bert_checkpoint_epoch*.pth")
@@ -184,10 +185,10 @@ for epoch in range(start_epoch, epochs):
     # Optionally, save the best model based on validation accuracy
     if val_accuracy > best_val_accuracy:
         best_val_accuracy = val_accuracy
-        model.save_pretrained('best_model')
-        tokenizer.save_pretrained('best_model')
+        model.save_pretrained(f'best_model_bert_{datasett}')
+        tokenizer.save_pretrained(f'best_model_bert_{datasett}')
         print(f"New best model saved with validation accuracy {best_val_accuracy:.4f}")
 
 # 11. Save the final trained model
-model.save_pretrained('saved_model')
-tokenizer.save_pretrained('saved_model')
+model.save_pretrained(f'saved_model_bert_{datasett}')
+tokenizer.save_pretrained(f'saved_model_bert_{datasett}')
