@@ -4,6 +4,20 @@ import torch.nn.functional as F
 from torch.utils.data import Dataset, DataLoader
 import pandas as pd
 import tiktoken
+import os
+import re
+import glob
+import logging  # Import logging module
+datasett = '11384'
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,  # Set logging level to INFO
+    format='%(asctime)s %(levelname)s: %(message)s',  # Log message format
+    handlers=[
+        logging.FileHandler(f"training_{datasett}.log"),  # Log messages to 'training.log'
+        logging.StreamHandler()  # Also output to console
+    ]
+)
 
 # Hyperparameters
 batch_size = 32
@@ -15,7 +29,7 @@ dropout = 0.2
 learning_rate = 1e-4
 
 eval_interval = 100
-max_iters = 5000
+max_iters = 3000
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 torch.manual_seed(1337)
 
@@ -166,7 +180,7 @@ def collate_fn(batch):
 # Training
 if __name__ == "__main__":
     # Load the CSV file
-    df = pd.read_csv("/home/wuw15/data_dir/cwproj/dataset_9062.csv")
+    df = pd.read_csv(f"/home/wuw15/data_dir/cwproj/dataset_{datasett}.csv")
     texts = df['text'].tolist()
     labels = df['label'].tolist()
     labels = [float(label) for label in labels]  # Ensure labels are floats
@@ -193,21 +207,73 @@ if __name__ == "__main__":
     optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
 
     # Training loop
-    for iter in range(max_iters):
+    # Define paths for saving checkpoints
+    checkpoint_dir = f"/home/wuw15/data_dir/cwproj/checkpoints_transformer_{datasett}"
+    os.makedirs(checkpoint_dir, exist_ok=True)
+    checkpoint_pattern = os.path.join(checkpoint_dir, "checkpoint_epoch*.pth")
+    def extract_epoch_num(filename):
+        basename = os.path.basename(filename)
+        match = re.search(r'checkpoint_epoch(\d+)\.pth', basename)
+        if match:
+            return int(match.group(1))
+        else:
+            return None
+    checkpoint_files = glob.glob(checkpoint_pattern)
+    
+    checkpoint_epochs = []
+    for file in checkpoint_files:
+        epoch_num = extract_epoch_num(file)
+        if epoch_num is not None:
+            checkpoint_epochs.append((epoch_num, file))
+    
+    checkpoint_epochs.sort(key=lambda x: x[0])
+    # Check if a checkpoint exists before training
+    if checkpoint_epochs:
+        latest_epoch, latest_checkpoint = checkpoint_epochs[-1]
+        logging.info(f"Loading checkpoint '{latest_checkpoint}' from epoch {latest_epoch}")
+        checkpoint = torch.load(latest_checkpoint)
+        model.load_state_dict(checkpoint['model_state_dict'])
+        optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
+        start_epoch = checkpoint['epoch'] + 1
+        model.to(device)  # Ensure model is on the correct device
+        logging.info(f"Resuming training from epoch {start_epoch}")
+    else:
+        logging.info("No checkpoint found. Starting training from scratch.")
+        start_epoch = 0
+
+    
+    for epoch in range(start_epoch, max_iters):
         model.train()
+        total_train_loss = 0
         for xb, yb, mask in train_loader:
             xb, yb, mask = xb.to(device), yb.to(device), mask.to(device)
             optimizer.zero_grad()
             logits = model(xb, mask).squeeze()
             loss = F.binary_cross_entropy_with_logits(logits, yb)
+            total_train_loss += loss.item()
             loss.backward()
             torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
             optimizer.step()
+            
+        avg_train_loss = total_train_loss / len(train_loader)
+        logging.info(f"Epoch {epoch} Training Loss: {avg_train_loss}")
+        
         # Evaluate periodically
-        if iter % eval_interval == 0:
+        if epoch % eval_interval == 0:
             losses = estimate_loss()
-            print(f"Iter {iter}, Train Loss: {losses['train']:.4f}, Val Loss: {losses['val']:.4f}")
-
+            logging.info(f"Epoch {epoch}, Train Loss: {losses['train']:.4f}, Val Loss: {losses['val']:.4f}")
+	
+            checkpoint_path = os.path.join(checkpoint_dir, f"checkpoint_epoch{epoch}.pth")
+            # Save checkpoint
+            checkpoint = {
+                'epoch': epoch,
+                'model_state_dict': model.state_dict(),
+                'optimizer_state_dict': optimizer.state_dict(),
+                'train_loss': losses['train'],
+                'val_loss': losses['val'],
+                }
+            torch.save(checkpoint, checkpoint_path)
+            logging.info(f"Checkpoint saved at '{checkpoint_path}' after epoch {epoch}")
 
     # Save the trained model
-    torch.save(model.state_dict(), "/home/wuw15/data_dir/cwproj/gpt_binary_classifier2.pth")
+    torch.save(model.state_dict(), f"/home/wuw15/data_dir/cwproj/gpt_binary_classifier_{datasett}.pth")
