@@ -38,6 +38,7 @@ def create_real_data(countries, temp):
 # generate synthetic words: no semantic meaning at all
 def generate_random_words(num_words, word_length, typ=0):
     words = set()
+    num_words = int(num_words)
     # 0 -> numbers, 1 -> variable, 2 -> fixed
     if typ == 0:
         # generate synthetic numbers as words: some semantic meaning when we use > as forward and < as reverse but = as independent
@@ -51,6 +52,7 @@ def generate_random_words(num_words, word_length, typ=0):
             words.add(word)
     elif typ == 2:
         # for random length
+        print(num_words)
         for _ in range(num_words):
             length = random.randint(*word_length)
             word = ''.join(random.choice(string.ascii_lowercase) for _ in range(length))
@@ -61,7 +63,8 @@ def generate_random_words(num_words, word_length, typ=0):
 # add quantifier and create the final dataset
 def generate_entailment_sequences(dataset0, dataset1, n_samples):
     sequences = set()
-    for _ in range(n_samples):
+    for st in range(n_samples):
+        print(st)
         # Randomly choose forward/reverse entailment or contradiction, we do not need independence
         # A reverse entails B, which means not B forward entails not A
         dataset_type = random.choices([0, 1], weights=(1/3, 2/3))[0]
@@ -72,14 +75,14 @@ def generate_entailment_sequences(dataset0, dataset1, n_samples):
             pair = random.choice(dataset0)
             A, B = pair
             # For dataset0: A is a contradiction of B
-            template_types = [[i[0].format(A,B),i[1]] for i in json_obj["contradiction"]]
+            template_types = [[i[0].format(A,B),i[1]] for i in json_obj["contradict"]]
         
         elif dataset_type == 1:
             # Choose random pair from dataset1
             pair = random.choice(dataset1)
             A, B = pair
             # For dataset1: A forward entails B
-            template_types = [[i[0].format(A,B),i[1]] for i in json_obj["entailment"]]
+            template_types = [[i[0].format(A,B),i[1]] for i in json_obj["entail"]]
         
         # Choose random template
         question, answer = random.choice(template_types)
@@ -94,11 +97,13 @@ def create_pair_set(words, pair_type, no_pairs, typee='word'):
             word = random.sample(words,1)[0] if typee == 'synthetic' else words.iloc[random.randint(0, len(words)-1)]
             pair = (word, word) if typee == 'synthetic' else (word.iloc[0], word.iloc[1])
             pairs.add(pair)
+            print("contradict", len(pairs))
     elif pair_type == 'entail':
         while len(pairs) < no_pairs:
             word = sorted(random.sample(words,2)) if typee == 'synthetic' else words.iloc[random.randint(0, len(words)-1)]
             pair = (word[0], word[1]) if typee == 'synthetic' else (word.iloc[1], word.iloc[0])
             pairs.add(pair)
+            print("entail", len(pairs))
     return list(pairs)
 
 # classes
@@ -171,9 +176,10 @@ class load_data(object):
         self.combined = create_real_data(self.countries, self.temp)
         self.antonyms = pd.read_csv('./../data/antonyms_chosen.csv')[['lemma', 'antonyms']]
 
-    def create_data_syn(self, n_samples, num_words, word_length, word_type):
-        no_pairs = 20
+    def create_data_syn(self, n_samples, word_length, word_type):
+        no_pairs = 200
         # get the sequences
+        num_words = 1.5*no_pairs
         words = generate_random_words(num_words, word_length, typ = word_type)
         dataset0 = create_pair_set(words, 'contradict', no_pairs, "synthetic")
         dataset1 = create_pair_set(words, 'entail', no_pairs, "synthetic")
@@ -187,7 +193,7 @@ class load_data(object):
         return dataset
 
     def create_data_real(self, n_samples):
-        no_pairs = 20
+        no_pairs = 104
         # get the sequences
         dataset0 = create_pair_set(self.antonyms, 'contradict', no_pairs,'word')
         dataset1 = create_pair_set(self.combined, 'entail', no_pairs,'word')
@@ -200,17 +206,54 @@ class load_data(object):
         dataset = pd.DataFrame({'text': texts, 'label': labels})
         return dataset
 
-if __name__ == "__main__":
+    def create_test_data(self, n_samples):
+        n_per_sec = int(n_samples/3)
+        df_real = pd.read_csv("./../data/fin_data/real_lort.csv",dtype=object)
+        df_syn_vars = pd.read_csv("./../data/fin_data/syn_lort_vars.csv", dtype=object)
+        df_syn_nums = pd.read_csv("./../data/fin_data/syn_lort_numbers.csv", dtype=object)
+
+        # test data for real set
+        test_real_yes = df_real[df_real["label"]=="1"].iloc[:int(n_per_sec//2),]
+        idx0 = test_real_yes.index
+        df_real = df_real.drop(idx0)
+        test_real_no = df_real[df_real["label"]=="0"].iloc[:n_per_sec//2,]
+        idx1 = test_real_no.index
+        df_real = df_real.drop(idx1)
+
+        # test data for variable letters
+        test_var_yes = df_syn_vars[df_syn_vars["label"]=="1"].iloc[:n_per_sec//2,]
+        idx0 = test_var_yes.index
+        df_syn_vars = df_syn_vars.drop(idx0)
+        test_var_no = df_syn_vars[df_syn_vars["label"]=="0"].iloc[:n_per_sec//2,]
+        idx1 = test_var_no.index
+        df_syn_vars = df_syn_vars.drop(idx1)
+
+        # test data for numbers 
+        test_nums_yes = df_syn_nums[df_syn_nums["label"]=="1"].iloc[:n_per_sec//2,]
+        idx0 = test_nums_yes.index
+        df_syn_nums = df_syn_nums.drop(idx0)
+        test_nums_no = df_syn_nums[df_syn_nums["label"]=="0"].iloc[:n_per_sec//2,]
+        idx1 = test_nums_no.index
+        df_syn_nums = df_syn_nums.drop(idx1)
+
+        df_test = pd.concat([test_real_yes, test_real_no, test_var_yes, test_var_no, test_nums_yes, test_nums_no])
+
+        df_test.to_csv("./../data/fin_data/test_lort.csv", index=False)
+        df_real.to_csv("./../data/fin_data/real_lort.csv", index=False)
+        df_syn_vars.to_csv("./../data/fin_data/syn_lort_vars.csv", index=False)
+        df_syn_nums.to_csv("./../data/fin_data/syn_lort_nums.csv", index=False)
+
+
+# for generating training data
+def main1():
     parser = argparse.ArgumentParser(description ='This code will be legend - wait for it - ary.. legendary!')
     parser.add_argument('n_samples', type = int, help ='insert number of samples.')
-    parser.add_argument('num_words', type = int, help ='insert number of words.')
     parser.add_argument('word_length', nargs='+', type=int, help ='insert word length.')
     parser.add_argument('word_type', type = int, help ='insert type of word. 0-numbers, 1-fixed, 2-variable')
     parser.add_argument("is_real", type=int, help = "real or synthetic data.")
     args = parser.parse_args()
 
     n_samples = args.n_samples
-    num_words = args.num_words
     word_length = args.word_length
     word_type = args.word_type
     is_real = args.is_real
@@ -224,11 +267,20 @@ if __name__ == "__main__":
 
     if is_real == 0:
         # create synthetic dataset
-        data = obj.create_data_syn(n_samples, num_words, word_length, word_type)
+        data = obj.create_data_syn(n_samples, word_length, word_type)
     else:
         # create real dataset
         data = obj.create_data_real(n_samples)
-    data.to_csv("./../test.csv")
+    data.to_csv("./../syn_lort_vars.csv")
+
+# for generating test data
+def main2():
+    obj = load_data()
+    obj.create_test_data(1200)
+
+if __name__ == "__main__":
+    main2()
+    
 
     
     

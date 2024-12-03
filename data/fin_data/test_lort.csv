@@ -1,0 +1,1201 @@
+Unnamed: 0,text,label
+8,"Given laugh contradicts weep, does weep contradict most laugh?",1
+9,"Given place reverse entails Estonia, does most Estonia forward entail some place?",1
+13,"Given Hungary forward entails place, does most place reverse entail Hungary?",1
+17,"Given dragonfly forward entails animal, does animal reverse entail few dragonfly?",1
+26,"Given no contradicts yes, does each yes contradict some no?",1
+33,"Given idle contradicts busy, does few busy contradict few idle?",1
+35,"Given Honduras forward entails kingdom, does kingdom reverse entail any Honduras?",1
+41,"Given unknown contradicts known, does each known contradict unknown?",1
+44,"Given absolute contradicts relative, does most relative forward entail not absolute?",1
+46,"Given animal reverse entails owl, does few owl forward entail some animal?",1
+47,"Given Vatican City forward entails kingdom, does few kingdom reverse entail each Vatican City?",1
+49,"Given extrovert contradicts introvert, does not extrovert reverse entail introvert?",1
+52,"Given place reverse entails Argentina, does most Argentina forward entail some place?",1
+54,"Given nation reverse entails Iceland, does Iceland forward entail nation?",1
+55,"Given kingdom reverse entails Poland, does any Poland forward entail any kingdom?",1
+63,"Given back contradicts front, does few front contradict any back?",1
+70,"Given place reverse entails Hungary, does Hungary forward entail any place?",1
+73,"Given Ukraine forward entails nation, does most nation reverse entail some Ukraine?",1
+77,"Given irritating contradicts soothe, does not soothe reverse entail one irritating?",1
+80,"Given old contradicts young, does young contradict few old?",1
+82,"Given joyful contradicts sorrowful, does joyful contradict one sorrowful?",1
+84,"Given big contradicts small, does not big reverse entail some small?",1
+94,"Given inland contradicts coastal, does some coastal contradict few inland?",1
+100,"Given recorded contradicts erase, does most recorded contradict one erase?",1
+108,"Given delicate contradicts rugged, does most delicate forward entail not rugged?",1
+112,"Given kingdom reverse entails Switzerland, does not kingdom forward entail not Switzerland?",1
+113,"Given softly contradicts loud, does most softly reverse entail not loud?",1
+120,"Given Vatican City forward entails kingdom, does few kingdom reverse entail few Vatican City?",1
+125,"Given unwanted contradicts desirable, does each unwanted contradict few desirable?",1
+129,"Given convex contradicts concave, does each concave contradict any convex?",1
+138,"Given kingdom reverse entails Nauru, does any Nauru forward entail kingdom?",1
+143,"Given inevitable contradicts avoidable, does any inevitable contradict avoidable?",1
+150,"Given thin contradicts thick, does few thin contradict few thick?",1
+159,"Given love contradicts detested, does not love reverse entail any detested?",1
+161,"Given foreign contradicts domestic, does one foreign contradict one domestic?",1
+176,"Given appear contradicts vanished, does most appear contradict vanished?",1
+180,"Given coastal contradicts inland, does not inland forward entail most coastal?",1
+185,"Given delayed contradicts rush, does most rush contradict some delayed?",1
+188,"Given Oceania reverse entails New Zealand, does any New Zealand forward entail each Oceania?",1
+191,"Given detested contradicts love, does not love reverse entail one detested?",1
+196,"Given far contradicts near, does not near reverse entail some far?",1
+197,"Given made contradicts break, does any made contradict each break?",1
+205,"Given South America reverse entails Chile, does most Chile forward entail any South America?",1
+208,"Given Belgium forward entails place, does most place reverse entail any Belgium?",1
+215,"Given straight contradicts curly, does few straight forward entail not curly?",1
+216,"Given Morocco forward entails Africa, does any Africa reverse entail most Morocco?",1
+217,"Given Gabon forward entails nation, does some nation reverse entail most Gabon?",1
+222,"Given nation reverse entails Belarus, does Belarus forward entail each nation?",1
+229,"Given near contradicts far, does some near reverse entail not far?",1
+230,"Given upstairs contradicts downstairs, does some upstairs contradict each downstairs?",1
+232,"Given Syria forward entails place, does each place reverse entail one Syria?",1
+239,"Given subjective contradicts objective, does most subjective contradict objective?",1
+243,"Given fancy contradicts plain, does not plain forward entail one fancy?",1
+260,"Given simplify contradicts complicate, does simplify contradict any complicate?",1
+262,"Given introvert contradicts extrovert, does one introvert contradict some extrovert?",1
+264,"Given above contradicts below, does any below contradict some above?",1
+265,"Given high contradicts low, does low reverse entail not high?",1
+267,"Given animal reverse entails mouse, does any mouse forward entail animal?",1
+285,"Given lowland contradicts upland, does few lowland contradict each upland?",1
+289,"Given Honduras forward entails kingdom, does one kingdom reverse entail most Honduras?",1
+292,"Given recorded contradicts erase, does each recorded contradict any erase?",1
+294,"Given busy contradicts idle, does each idle contradict some busy?",1
+296,"Given low contradicts high, does not low forward entail most high?",1
+302,"Given kingdom reverse entails Saint Kitts and Nevis, does most Saint Kitts and Nevis forward entail some kingdom?",1
+304,"Given kingdom reverse entails Netherlands, does any Netherlands forward entail few kingdom?",1
+311,"Given place reverse entails Philippines, does Philippines forward entail place?",1
+317,"Given beautiful contradicts ugly, does ugly forward entail not beautiful?",1
+318,"Given softly contradicts loud, does not softly forward entail one loud?",1
+319,"Given full contradicts empty, does each empty contradict full?",1
+321,"Given clear contradicts cloudy, does most clear contradict each cloudy?",1
+322,"Given Comoros forward entails kingdom, does any kingdom reverse entail most Comoros?",1
+326,"Given recessive contradicts dominant, does most recessive forward entail not dominant?",1
+327,"Given rich contradicts poor, does any poor contradict any rich?",1
+329,"Given Africa reverse entails Chad, does few Chad forward entail one Africa?",1
+331,"Given Netherlands forward entails kingdom, does any kingdom reverse entail few Netherlands?",1
+339,"Given far contradicts near, does some far contradict any near?",1
+346,"Given no contradicts yes, does some yes contradict most no?",1
+354,"Given capitalist contradicts socialistic, does some socialistic forward entail not capitalist?",1
+355,"Given El Salvador forward entails place, does any place reverse entail El Salvador?",1
+356,"Given bright contradicts dull, does not dull reverse entail any bright?",1
+363,"Given objective contradicts subjective, does few objective contradict one subjective?",1
+364,"Given rugged contradicts delicate, does each delicate contradict most rugged?",1
+376,"Given warm contradicts cool, does not cool forward entail one warm?",1
+379,"Given isotonic contradicts isometric, does each isometric contradict some isotonic?",1
+380,"Given unite contradicts separate, does unite contradict some separate?",1
+382,"Given up contradicts down, does few down contradict few up?",1
+383,"Given introvert contradicts extrovert, does extrovert reverse entail not introvert?",1
+388,"Given Africa reverse entails Ivory Coast, does most Ivory Coast forward entail few Africa?",1
+395,"Given kingdom reverse entails Grenada, does one Grenada forward entail any kingdom?",1
+396,"Given nation reverse entails Sweden, does Sweden forward entail nation?",1
+401,"Given Saint Kitts and Nevis forward entails kingdom, does some kingdom reverse entail some Saint Kitts and Nevis?",1
+404,"Given upland contradicts lowland, does few lowland contradict few upland?",1
+405,"Given kingdom reverse entails Tajikistan, does one Tajikistan forward entail kingdom?",1
+408,"Given con contradicts pro, does one pro contradict con?",1
+428,"Given have contradicts lacking, does not have forward entail some lacking?",1
+432,"Given lowland contradicts upland, does most upland contradict most lowland?",1
+433,"Given dissociate contradicts related, does each related contradict most dissociate?",1
+435,"Given Zambia forward entails kingdom, does kingdom reverse entail any Zambia?",1
+437,"Given upstairs contradicts downstairs, does most downstairs contradict most upstairs?",1
+440,"Given kingdom reverse entails Serbia, does most Serbia forward entail most kingdom?",1
+441,"Given kingdom reverse entails Switzerland, does one Switzerland forward entail any kingdom?",1
+443,"Given Madagascar forward entails nation, does any nation reverse entail any Madagascar?",1
+448,"Given place reverse entails Croatia, does few Croatia forward entail each place?",1
+455,"Given singular contradicts plural, does one plural contradict most singular?",1
+456,"Given Philippines forward entails place, does each place reverse entail any Philippines?",1
+462,"Given kingdom reverse entails Honduras, does most Honduras forward entail some kingdom?",1
+463,"Given kingdom reverse entails Nauru, does not kingdom forward entail not Nauru?",1
+466,"Given joint contradicts separate, does one separate contradict few joint?",1
+470,"Given rich contradicts poor, does few poor reverse entail not rich?",1
+474,"Given Ivory Coast forward entails place, does each place reverse entail most Ivory Coast?",1
+478,"Given bright contradicts dull, does not bright reverse entail any dull?",1
+482,"Given foolish contradicts wise, does most foolish forward entail not wise?",1
+486,"Given capitalist contradicts socialistic, does few capitalist contradict any socialistic?",1
+493,"Given Bulgaria forward entails kingdom, does most kingdom reverse entail most Bulgaria?",1
+495,"Given Sao Tome and Principe forward entails nation, does most nation reverse entail one Sao Tome and Principe?",1
+497,"Given animal reverse entails dragonfly, does any dragonfly forward entail some animal?",1
+502,"Given joyful contradicts sorrowful, does few sorrowful contradict any joyful?",1
+506,"Given kingdom reverse entails Switzerland, does most Switzerland forward entail most kingdom?",1
+510,"Given place reverse entails Poland, does any Poland forward entail most place?",1
+512,"Given soothe contradicts irritating, does few soothe contradict irritating?",1
+514,"Given Chile forward entails South America, does any South America reverse entail Chile?",1
+518,"Given Panama forward entails nation, does each nation reverse entail Panama?",1
+519,"Given animal reverse entails dragonfly, does any dragonfly forward entail each animal?",1
+527,"Given inside contradicts outside, does not inside forward entail some outside?",1
+529,"Given least contradicts most, does any least reverse entail not most?",1
+532,"Given secure contradicts unfasten, does each secure contradict one unfasten?",1
+538,"Given unknown contradicts known, does unknown reverse entail not known?",1
+546,"Given irritating contradicts soothe, does not soothe forward entail irritating?",1
+553,"Given Asia reverse entails Burma (Myanmar), does most Burma (Myanmar) forward entail some Asia?",1
+556,"Given place reverse entails Syria, does some Syria forward entail most place?",1
+558,"Given lost contradicts saved, does each saved forward entail not lost?",1
+559,"Given absolute contradicts relative, does relative contradict most absolute?",1
+562,"Given joyful contradicts sorrowful, does each sorrowful contradict few joyful?",1
+563,"Given nation reverse entails Gabon, does Gabon forward entail most nation?",1
+564,"Given Africa reverse entails Egypt, does Egypt forward entail each Africa?",1
+576,"Given con contradicts pro, does con contradict each pro?",1
+580,"Given numerical contradicts verbal, does few verbal forward entail not numerical?",1
+583,"Given Egypt forward entails Africa, does each Africa reverse entail Egypt?",1
+588,"Given rugged contradicts delicate, does not rugged forward entail some delicate?",1
+591,"Given owl forward entails animal, does one animal reverse entail any owl?",1
+593,"Given kingdom reverse entails Azerbaijan, does each Azerbaijan forward entail one kingdom?",1
+595,"Given unholy contradicts holy, does not holy reverse entail each unholy?",1
+598,"Given unwanted contradicts desirable, does some desirable reverse entail not unwanted?",1
+601,"Given Argentina forward entails place, does some place reverse entail any Argentina?",1
+606,"Given female contradicts male, does male contradict most female?",1
+607,"Given nation reverse entails Iceland, does one Iceland forward entail one nation?",1
+609,"Given near contradicts far, does each near contradict each far?",1
+618,"Given sophisticated contradicts naive, does each naive contradict each sophisticated?",1
+621,"Given downstairs contradicts upstairs, does few upstairs contradict each downstairs?",1
+627,"Given Asia reverse entails Tajikistan, does any Tajikistan forward entail one Asia?",1
+632,"Given circular contradicts square, does few square contradict few circular?",1
+638,"Given downstairs contradicts upstairs, does some downstairs contradict most upstairs?",1
+645,"Given Lily Valley forward entails plant, does any plant reverse entail each Lily Valley?",1
+647,"Given old contradicts young, does any old contradict any young?",1
+653,"Given vanished contradicts appear, does most vanished contradict appear?",1
+656,"Given irritating contradicts soothe, does most soothe contradict irritating?",1
+662,"Given softly contradicts loud, does each loud reverse entail not softly?",1
+667,"Given increase contradicts decrease, does each increase contradict some decrease?",1
+672,"Given good contradicts evil, does one evil reverse entail not good?",1
+679,"Given recessive contradicts dominant, does dominant contradict recessive?",1
+680,"Given close contradicts distant, does some close contradict one distant?",1
+685,"Given Sri Lanka forward entails nation, does some nation reverse entail some Sri Lanka?",1
+688,"Given Chile forward entails South America, does some South America reverse entail few Chile?",1
+693,"Given nation reverse entails Saint Kitts and Nevis, does most Saint Kitts and Nevis forward entail nation?",1
+695,"Given Africa reverse entails South Sudan, does any South Sudan forward entail most Africa?",1
+698,"Given convex contradicts concave, does each convex contradict any concave?",1
+712,"Given Africa reverse entails South Sudan, does any South Sudan forward entail Africa?",1
+714,"Given rugged contradicts delicate, does each delicate contradict rugged?",1
+715,"Given separate contradicts joint, does not separate reverse entail few joint?",1
+719,"Given relative contradicts absolute, does one relative contradict each absolute?",1
+725,"Given Vatican City forward entails kingdom, does one kingdom reverse entail some Vatican City?",1
+727,"Given small contradicts large, does not large forward entail any small?",1
+730,"Given nation reverse entails Turkey, does few Turkey forward entail each nation?",1
+744,"Given secure contradicts unfasten, does some unfasten contradict some secure?",1
+751,"Given down contradicts up, does few up contradict one down?",1
+752,"Given Nigeria forward entails nation, does some nation reverse entail any Nigeria?",1
+753,"Given well contradicts poorly, does some well forward entail not poorly?",1
+757,"Given place reverse entails Panama, does each Panama forward entail few place?",1
+765,"Given nation reverse entails Afghanistan, does Afghanistan forward entail few nation?",1
+769,"Given separate contradicts joint, does not separate forward entail most joint?",1
+772,"Given Tajikistan forward entails kingdom, does one kingdom reverse entail one Tajikistan?",1
+773,"Given small contradicts big, does any big contradict some small?",1
+775,"Given Equatorial Guinea forward entails Africa, does most Africa reverse entail some Equatorial Guinea?",1
+784,"Given Burma (Myanmar) forward entails Asia, does any Asia reverse entail one Burma (Myanmar)?",1
+792,"Given hydric contradicts xeric, does xeric contradict most hydric?",1
+794,"Given unholy contradicts holy, does each unholy contradict some holy?",1
+808,"Given curly contradicts straight, does one curly contradict most straight?",1
+816,"Given appear contradicts vanished, does some vanished contradict few appear?",1
+821,"Given Tajikistan forward entails kingdom, does some kingdom reverse entail some Tajikistan?",1
+825,"Given love contradicts detested, does some love contradict one detested?",1
+829,"Given loud contradicts softly, does some softly contradict most loud?",1
+835,"Given place reverse entails Dominican Republic, does not Dominican Republic reverse entail not place?",1
+837,"Given separate contradicts unite, does any separate contradict one unite?",1
+840,"Given Jamaica forward entails North America, does most North America reverse entail any Jamaica?",1
+843,"Given kingdom reverse entails Azerbaijan, does most Azerbaijan forward entail one kingdom?",1
+857,"Given busy contradicts idle, does some idle reverse entail not busy?",1
+859,"Given busy contradicts idle, does busy contradict any idle?",1
+867,"Given inland contradicts coastal, does any inland contradict each coastal?",1
+868,"Given far contradicts near, does not near forward entail far?",1
+869,"Given socialistic contradicts capitalist, does few socialistic contradict most capitalist?",1
+0,"Given vanished contradicts appear, does one appear reverse entail one vanished?",0
+1,"Given Ireland forward entails place, does some place forward entail most Ireland?",0
+2,"Given kingdom reverse entails Switzerland, does Switzerland contradict any kingdom?",0
+3,"Given unknown contradicts known, does one unknown forward entail each known?",0
+4,"Given creature reverse entails turtle, does most turtle contradict most creature?",0
+5,"Given Tonga forward entails kingdom, does one Tonga contradict any kingdom?",0
+6,"Given nation reverse entails Colombia, does one Colombia reverse entail any nation?",0
+7,"Given Vatican City forward entails kingdom, does most Vatican City forward entail one kingdom?",0
+10,"Given Morocco forward entails Africa, does Africa contradict each Morocco?",0
+11,"Given snake forward entails creature, does few snake reverse entail few creature?",0
+12,"Given Estonia forward entails place, does some Estonia reverse entail some place?",0
+14,"Given Ukraine forward entails nation, does not Ukraine reverse entail nation?",0
+15,"Given kingdom reverse entails Bahamas, does any kingdom forward entail each Bahamas?",0
+16,"Given Haiti forward entails place, does one Haiti reverse entail each place?",0
+18,"Given Nigeria forward entails nation, does each Nigeria forward entail each nation?",0
+19,"Given related contradicts dissociate, does few dissociate forward entail each related?",0
+20,"Given east contradicts west, does any west reverse entail any east?",0
+21,"Given nation reverse entails Niger, does some nation contradict most Niger?",0
+22,"Given place reverse entails Brunei, does one Brunei reverse entail place?",0
+23,"Given kingdom reverse entails Tonga, does one kingdom reverse entail any Tonga?",0
+24,"Given kingdom reverse entails Nauru, does most kingdom forward entail one Nauru?",0
+25,"Given separate contradicts joint, does few joint forward entail one separate?",0
+27,"Given creature reverse entails snake, does snake contradict not creature?",0
+28,"Given Bulgaria forward entails kingdom, does some Bulgaria forward entail not kingdom?",0
+29,"Given creature reverse entails fox, does not fox forward entail not creature?",0
+30,"Given place reverse entails Panama, does not place forward entail few Panama?",0
+31,"Given unite contradicts separate, does any separate forward entail some unite?",0
+32,"Given Malta forward entails kingdom, does Malta contradict some kingdom?",0
+34,"Given Africa reverse entails Chad, does any Africa forward entail not Chad?",0
+36,"Given creature reverse entails turtle, does each creature reverse entail some turtle?",0
+37,"Given place reverse entails Brunei, does some Brunei reverse entail some place?",0
+38,"Given kingdom reverse entails Azerbaijan, does few kingdom reverse entail one Azerbaijan?",0
+39,"Given Asia reverse entails South Korea, does each South Korea contradict few Asia?",0
+40,"Given Kyrgyzstan forward entails nation, does one Kyrgyzstan reverse entail any nation?",0
+42,"Given dead contradicts living, does few living reverse entail few dead?",0
+43,"Given laugh contradicts cry, does each laugh forward entail any cry?",0
+45,"Given naive contradicts sophisticated, does most naive reverse entail each sophisticated?",0
+48,"Given dried contradicts wet, does any wet forward entail dried?",0
+50,"Given Oman forward entails Asia, does not Oman forward entail few Asia?",0
+51,"Given nation reverse entails Madagascar, does few nation contradict Madagascar?",0
+53,"Given place reverse entails Iceland, does most Iceland reverse entail some place?",0
+56,"Given near contradicts far, does some far reverse entail few near?",0
+57,"Given hydric contradicts xeric, does most hydric forward entail any xeric?",0
+58,"Given Ivory Coast forward entails nation, does not nation reverse entail not Ivory Coast?",0
+59,"Given Brunei forward entails place, does some Brunei reverse entail some place?",0
+60,"Given kingdom reverse entails Vatican City, does not kingdom reverse entail Vatican City?",0
+61,"Given Kenya forward entails place, does not place contradict any Kenya?",0
+62,"Given Guinea-Bissau forward entails nation, does nation contradict not Guinea-Bissau?",0
+64,"Given plant reverse entails Lily Valley, does not Lily Valley forward entail few plant?",0
+65,"Given nation reverse entails Argentina, does any nation reverse entail any Argentina?",0
+66,"Given Oman forward entails Asia, does most Oman reverse entail few Asia?",0
+67,"Given bright contradicts dull, does one bright reverse entail some dull?",0
+68,"Given nation reverse entails Gabon, does Gabon reverse entail each nation?",0
+69,"Given North America reverse entails Jamaica, does one Jamaica contradict some North America?",0
+71,"Given front contradicts back, does one back contradict not front?",0
+72,"Given octopus forward entails creature, does octopus contradict not creature?",0
+74,"Given plant reverse entails Lily Valley, does each plant contradict Lily Valley?",0
+75,"Given Mauritania forward entails Africa, does some Africa contradict each Mauritania?",0
+76,"Given North America reverse entails Jamaica, does any North America forward entail Jamaica?",0
+78,"Given different contradicts same, does different forward entail some same?",0
+79,"Given kingdom reverse entails Comoros, does few Comoros contradict one kingdom?",0
+81,"Given animal reverse entails mouse, does most animal reverse entail mouse?",0
+83,"Given kingdom reverse entails Grenada, does kingdom contradict one Grenada?",0
+85,"Given young contradicts old, does any old reverse entail one young?",0
+86,"Given dry contradicts wet, does one wet reverse entail some dry?",0
+87,"Given place reverse entails Indonesia, does most place reverse entail each Indonesia?",0
+88,"Given Dominican Republic forward entails place, does not place reverse entail most Dominican Republic?",0
+89,"Given kingdom reverse entails Azerbaijan, does each kingdom contradict Azerbaijan?",0
+90,"Given kingdom reverse entails Nauru, does not Nauru forward entail kingdom?",0
+91,"Given Niger forward entails nation, does Niger forward entail each nation?",0
+92,"Given Ireland forward entails Europe, does not Ireland contradict few Europe?",0
+93,"Given nation reverse entails Madagascar, does nation forward entail not Madagascar?",0
+95,"Given nation reverse entails North Korea, does few nation forward entail most North Korea?",0
+96,"Given concave contradicts convex, does most concave contradict not convex?",0
+97,"Given lowland contradicts upland, does one lowland reverse entail each upland?",0
+98,"Given place reverse entails Hungary, does some place forward entail few Hungary?",0
+99,"Given sorrowful contradicts joyful, does not joyful contradict each sorrowful?",0
+101,"Given Argentina forward entails place, does most Argentina reverse entail few place?",0
+102,"Given nation reverse entails Turkey, does some Turkey contradict any nation?",0
+103,"Given dominant contradicts recessive, does some recessive reverse entail one dominant?",0
+104,"Given Haiti forward entails place, does not Haiti reverse entail few place?",0
+105,"Given kingdom reverse entails Zambia, does not Zambia contradict any kingdom?",0
+106,"Given place reverse entails Estonia, does each place reverse entail most Estonia?",0
+107,"Given South America reverse entails Colombia, does few South America reverse entail one Colombia?",0
+109,"Given nation reverse entails Colombia, does one Colombia contradict not nation?",0
+110,"Given Poland forward entails kingdom, does most Poland reverse entail not kingdom?",0
+111,"Given Ivory Coast forward entails Africa, does each Africa contradict not Ivory Coast?",0
+114,"Given bottom contradicts top, does few bottom forward entail some top?",0
+115,"Given allogeneic contradicts xenogeneic, does each allogeneic forward entail any xenogeneic?",0
+116,"Given Ukraine forward entails nation, does one Ukraine forward entail any nation?",0
+117,"Given kingdom reverse entails Singapore, does one Singapore contradict kingdom?",0
+118,"Given Tonga forward entails kingdom, does Tonga contradict not kingdom?",0
+119,"Given zebra forward entails creature, does few zebra forward entail any creature?",0
+121,"Given creature reverse entails oyster, does one creature forward entail not oyster?",0
+122,"Given octopus forward entails creature, does any creature forward entail some octopus?",0
+123,"Given abbreviated contradicts expand, does some expand reverse entail some abbreviated?",0
+124,"Given rich contradicts poor, does each poor reverse entail any rich?",0
+126,"Given animal reverse entails mouse, does one animal reverse entail most mouse?",0
+127,"Given well contradicts poorly, does few poorly forward entail most well?",0
+128,"Given bottom contradicts top, does one bottom reverse entail most top?",0
+130,"Given nation reverse entails Argentina, does each Argentina reverse entail most nation?",0
+131,"Given Netherlands forward entails kingdom, does not Netherlands forward entail few kingdom?",0
+132,"Given Vatican City forward entails kingdom, does most Vatican City contradict not kingdom?",0
+133,"Given kingdom reverse entails Cuba, does most kingdom contradict few Cuba?",0
+134,"Given scarce contradicts abundant, does most scarce reverse entail most abundant?",0
+135,"Given nation reverse entails Madagascar, does Madagascar contradict most nation?",0
+136,"Given South America reverse entails Colombia, does one South America forward entail Colombia?",0
+137,"Given Grenada forward entails kingdom, does not kingdom contradict one Grenada?",0
+139,"Given nation reverse entails Nigeria, does not Nigeria contradict most nation?",0
+140,"Given nation reverse entails Papua New Guinea, does not Papua New Guinea forward entail not nation?",0
+141,"Given Sweden forward entails nation, does each nation reverse entail not Sweden?",0
+142,"Given fine contradicts coarse, does any fine reverse entail one coarse?",0
+144,"Given place reverse entails Bahamas, does any place forward entail any Bahamas?",0
+145,"Given Mauritania forward entails Africa, does each Mauritania forward entail one Africa?",0
+146,"Given Ivory Coast forward entails nation, does most Ivory Coast contradict few nation?",0
+147,"Given capitalist contradicts socialistic, does any capitalist forward entail any socialistic?",0
+148,"Given Africa reverse entails Ivory Coast, does one Ivory Coast contradict Africa?",0
+149,"Given nation reverse entails Panama, does Panama reverse entail most nation?",0
+151,"Given Argentina forward entails place, does few Argentina forward entail any place?",0
+152,"Given stay contradicts moving, does most moving reverse entail one stay?",0
+153,"Given scarce contradicts abundant, does few scarce reverse entail some abundant?",0
+154,"Given kingdom reverse entails Zambia, does any kingdom contradict each Zambia?",0
+155,"Given kingdom reverse entails Sweden, does not Sweden contradict not kingdom?",0
+156,"Given Kyrgyzstan forward entails nation, does few nation forward entail not Kyrgyzstan?",0
+157,"Given nation reverse entails Colombia, does one Colombia contradict few nation?",0
+158,"Given Comoros forward entails kingdom, does not Comoros reverse entail some kingdom?",0
+160,"Given expand contradicts abbreviated, does some abbreviated forward entail some expand?",0
+162,"Given depress contradicts uplifted, does few depress reverse entail one uplifted?",0
+163,"Given big contradicts small, does big reverse entail one small?",0
+164,"Given fox forward entails creature, does few fox reverse entail any creature?",0
+165,"Given Malta forward entails kingdom, does one Malta contradict one kingdom?",0
+166,"Given Nauru forward entails kingdom, does not kingdom reverse entail each Nauru?",0
+167,"Given place reverse entails El Salvador, does some El Salvador contradict some place?",0
+168,"Given place reverse entails Ireland, does any place forward entail one Ireland?",0
+169,"Given Burma (Myanmar) forward entails Asia, does few Asia reverse entail not Burma (Myanmar)?",0
+170,"Given nation reverse entails Madagascar, does few nation forward entail few Madagascar?",0
+171,"Given Africa reverse entails Morocco, does not Africa reverse entail one Morocco?",0
+172,"Given place reverse entails Gabon, does most Gabon reverse entail some place?",0
+173,"Given place reverse entails Ivory Coast, does one place forward entail few Ivory Coast?",0
+174,"Given Kyrgyzstan forward entails nation, does most nation reverse entail not Kyrgyzstan?",0
+175,"Given Lily Valley forward entails plant, does each Lily Valley contradict not plant?",0
+177,"Given Africa reverse entails Ivory Coast, does not Ivory Coast forward entail one Africa?",0
+178,"Given carnivorous contradicts herbivorous, does one carnivorous reverse entail herbivorous?",0
+179,"Given cry contradicts laugh, does few cry reverse entail few laugh?",0
+181,"Given owl forward entails animal, does not animal contradict some owl?",0
+182,"Given softly contradicts loud, does not loud contradict softly?",0
+183,"Given Asia reverse entails Oman, does most Asia reverse entail Oman?",0
+184,"Given near contradicts far, does most near reverse entail far?",0
+186,"Given near contradicts far, does each near reverse entail most far?",0
+187,"Given Poland forward entails kingdom, does most Poland reverse entail some kingdom?",0
+189,"Given place reverse entails El Salvador, does some place contradict El Salvador?",0
+190,"Given place reverse entails Iceland, does not Iceland reverse entail place?",0
+192,"Given Nigeria forward entails nation, does not Nigeria contradict not nation?",0
+193,"Given delayed contradicts rush, does any delayed reverse entail each rush?",0
+194,"Given nation reverse entails Belarus, does Belarus contradict nation?",0
+195,"Given nation reverse entails Benin, does some nation forward entail some Benin?",0
+198,"Given South America reverse entails Colombia, does not Colombia forward entail some South America?",0
+199,"Given place reverse entails Gabon, does place contradict Gabon?",0
+200,"Given nation reverse entails Ukraine, does few Ukraine forward entail not nation?",0
+201,"Given present contradicts absent, does few absent forward entail few present?",0
+202,"Given creature reverse entails deer, does most creature contradict not deer?",0
+203,"Given creature reverse entails turtle, does not turtle reverse entail most creature?",0
+204,"Given creature reverse entails deer, does each creature contradict any deer?",0
+206,"Given kingdom reverse entails Estonia, does some Estonia contradict one kingdom?",0
+207,"Given Croatia forward entails place, does one place forward entail not Croatia?",0
+209,"Given place reverse entails Panama, does any place reverse entail not Panama?",0
+210,"Given inside contradicts outside, does most outside reverse entail inside?",0
+211,"Given place reverse entails Iceland, does some Iceland contradict not place?",0
+212,"Given nation reverse entails Madagascar, does nation forward entail few Madagascar?",0
+213,"Given complicate contradicts simplify, does each complicate reverse entail one simplify?",0
+214,"Given place reverse entails Croatia, does not Croatia contradict some place?",0
+218,"Given Estonia forward entails place, does not place forward entail some Estonia?",0
+219,"Given laugh contradicts weep, does one laugh forward entail each weep?",0
+220,"Given kingdom reverse entails Chile, does any kingdom contradict Chile?",0
+221,"Given place reverse entails El Salvador, does any place forward entail not El Salvador?",0
+223,"Given Brunei forward entails place, does most place forward entail some Brunei?",0
+224,"Given Iceland forward entails nation, does Iceland forward entail not nation?",0
+225,"Given vanished contradicts appear, does most vanished reverse entail some appear?",0
+226,"Given kingdom reverse entails Netherlands, does few kingdom contradict some Netherlands?",0
+227,"Given place reverse entails Dominican Republic, does one place contradict Dominican Republic?",0
+228,"Given inland contradicts coastal, does any coastal reverse entail any inland?",0
+231,"Given beautiful contradicts ugly, does most ugly forward entail most beautiful?",0
+233,"Given Indonesia forward entails place, does each place forward entail few Indonesia?",0
+234,"Given nation reverse entails Ivory Coast, does one Ivory Coast contradict each nation?",0
+235,"Given Africa reverse entails Ivory Coast, does not Ivory Coast reverse entail Africa?",0
+236,"Given creature reverse entails fox, does creature contradict few fox?",0
+237,"Given concave contradicts convex, does most convex reverse entail any concave?",0
+238,"Given concave contradicts convex, does one convex contradict not concave?",0
+240,"Given small contradicts large, does few small forward entail any large?",0
+241,"Given tie contradicts unlaced, does most unlaced reverse entail any tie?",0
+242,"Given nation reverse entails Benin, does Benin reverse entail one nation?",0
+244,"Given narrow contradicts broad, does narrow forward entail broad?",0
+245,"Given kingdom reverse entails Tonga, does few kingdom forward entail any Tonga?",0
+246,"Given El Salvador forward entails place, does any El Salvador reverse entail most place?",0
+247,"Given weep contradicts laugh, does few laugh forward entail some weep?",0
+248,"Given Africa reverse entails South Sudan, does each South Sudan reverse entail few Africa?",0
+249,"Given coastal contradicts inland, does one coastal reverse entail each inland?",0
+250,"Given Poland forward entails kingdom, does few Poland contradict most kingdom?",0
+251,"Given nation reverse entails Benin, does few Benin reverse entail nation?",0
+252,"Given elderly contradicts young, does some elderly forward entail most young?",0
+2,"Given ebiwen forward entails eghnpp, does eghnpp reverse entail most ebiwen?",1
+9,"Given veheqec contradicts veheqec, does most veheqec contradict few veheqec?",1
+10,"Given fgleeank forward entails tglgzoco, does some tglgzoco reverse entail most fgleeank?",1
+11,"Given luhjyw forward entails oizzr, does one oizzr reverse entail luhjyw?",1
+12,"Given qidohap contradicts qidohap, does one qidohap contradict any qidohap?",1
+13,"Given kga forward entails xcr, does most xcr reverse entail any kga?",1
+23,"Given ghu forward entails qkutwj, does any qkutwj reverse entail one ghu?",1
+25,"Given cq contradicts cq, does few cq contradict cq?",1
+28,"Given ttbvn reverse entails cgjxa, does any cgjxa forward entail most ttbvn?",1
+30,"Given oizzr reverse entails luhjyw, does few luhjyw forward entail each oizzr?",1
+35,"Given gm contradicts gm, does any gm contradict one gm?",1
+37,"Given odqbj contradicts odqbj, does most odqbj contradict each odqbj?",1
+49,"Given wzzui reverse entails dz, does some dz forward entail most wzzui?",1
+52,"Given rav contradicts rav, does any rav contradict few rav?",1
+61,"Given kqbg contradicts kqbg, does most kqbg contradict one kqbg?",1
+63,"Given yopke contradicts yopke, does not yopke reverse entail few yopke?",1
+67,"Given rtrk contradicts rtrk, does rtrk contradict some rtrk?",1
+71,"Given ddzg forward entails kk, does one kk reverse entail any ddzg?",1
+75,"Given cp contradicts cp, does not cp forward entail most cp?",1
+79,"Given zmmyov reverse entails ufyu, does any ufyu forward entail each zmmyov?",1
+88,"Given jgdbuxui contradicts jgdbuxui, does few jgdbuxui contradict one jgdbuxui?",1
+93,"Given mtpkhd forward entails zgolco, does most zgolco reverse entail most mtpkhd?",1
+97,"Given oshk contradicts oshk, does most oshk contradict any oshk?",1
+104,"Given ktcy reverse entails da, does each da forward entail some ktcy?",1
+105,"Given kpbz reverse entails cgjxa, does one cgjxa forward entail few kpbz?",1
+111,"Given nwsoymx contradicts nwsoymx, does most nwsoymx forward entail not nwsoymx?",1
+117,"Given twfkurfz contradicts twfkurfz, does one twfkurfz contradict some twfkurfz?",1
+132,"Given nwsoymx contradicts nwsoymx, does most nwsoymx contradict each nwsoymx?",1
+136,"Given lfg reverse entails bgtp, does one bgtp forward entail most lfg?",1
+138,"Given cmwufcvo contradicts cmwufcvo, does not cmwufcvo forward entail few cmwufcvo?",1
+152,"Given hior forward entails tglgzoco, does some tglgzoco reverse entail any hior?",1
+153,"Given zcsrotcj contradicts zcsrotcj, does not zcsrotcj reverse entail some zcsrotcj?",1
+154,"Given ufyu contradicts ufyu, does any ufyu contradict few ufyu?",1
+157,"Given jqcqlmr reverse entails jcbwwlwv, does each jcbwwlwv forward entail most jqcqlmr?",1
+158,"Given gtawzesf contradicts gtawzesf, does few gtawzesf reverse entail not gtawzesf?",1
+165,"Given vfxok contradicts vfxok, does few vfxok contradict few vfxok?",1
+167,"Given qzbvby reverse entails cwohnuwx, does one cwohnuwx forward entail any qzbvby?",1
+168,"Given pou forward entails vkr, does few vkr reverse entail most pou?",1
+170,"Given vn contradicts vn, does one vn contradict any vn?",1
+172,"Given taou contradicts taou, does some taou contradict any taou?",1
+177,"Given jlgbdn contradicts jlgbdn, does few jlgbdn reverse entail not jlgbdn?",1
+180,"Given apfjpo contradicts apfjpo, does one apfjpo forward entail not apfjpo?",1
+184,"Given eelow forward entails xdmipdb, does xdmipdb reverse entail some eelow?",1
+186,"Given vydsmzci reverse entails vdquesec, does one vdquesec forward entail some vydsmzci?",1
+189,"Given gqyhjg contradicts gqyhjg, does any gqyhjg contradict one gqyhjg?",1
+203,"Given rfpmbpun contradicts rfpmbpun, does some rfpmbpun contradict rfpmbpun?",1
+204,"Given eelow contradicts eelow, does eelow contradict few eelow?",1
+209,"Given wpymiyw contradicts wpymiyw, does any wpymiyw contradict each wpymiyw?",1
+210,"Given eghnpp contradicts eghnpp, does most eghnpp contradict most eghnpp?",1
+225,"Given ozwnewr forward entails zmmyov, does few zmmyov reverse entail any ozwnewr?",1
+236,"Given nwlcvil forward entails pocee, does any pocee reverse entail some nwlcvil?",1
+241,"Given xscbw reverse entails aiqdkt, does few aiqdkt forward entail few xscbw?",1
+245,"Given ufyu contradicts ufyu, does not ufyu forward entail one ufyu?",1
+247,"Given zhm reverse entails jqcqlmr, does each jqcqlmr forward entail zhm?",1
+262,"Given savfll contradicts savfll, does not savfll forward entail savfll?",1
+264,"Given cq forward entails yxfdjr, does one yxfdjr reverse entail few cq?",1
+275,"Given pocee contradicts pocee, does not pocee forward entail any pocee?",1
+276,"Given wtojzs contradicts wtojzs, does wtojzs contradict wtojzs?",1
+279,"Given zgolco contradicts zgolco, does some zgolco contradict some zgolco?",1
+280,"Given bpxlshnn forward entails cwohnuwx, does any cwohnuwx reverse entail some bpxlshnn?",1
+282,"Given da forward entails xtzxkryp, does most xtzxkryp reverse entail any da?",1
+290,"Given kga reverse entails ekig, does each ekig forward entail some kga?",1
+301,"Given aozxy contradicts aozxy, does few aozxy contradict one aozxy?",1
+303,"Given rxmwrr contradicts rxmwrr, does rxmwrr contradict one rxmwrr?",1
+304,"Given osexvm contradicts osexvm, does one osexvm contradict some osexvm?",1
+305,"Given iok contradicts iok, does iok contradict each iok?",1
+309,"Given htum contradicts htum, does few htum contradict any htum?",1
+321,"Given wzzui reverse entails jqcqlmr, does jqcqlmr forward entail some wzzui?",1
+322,"Given bugrnv contradicts bugrnv, does most bugrnv contradict some bugrnv?",1
+324,"Given pocee reverse entails inp, does one inp forward entail some pocee?",1
+325,"Given zcsrotcj contradicts zcsrotcj, does one zcsrotcj forward entail not zcsrotcj?",1
+327,"Given nxcnwq contradicts nxcnwq, does each nxcnwq contradict few nxcnwq?",1
+329,"Given muuvggkx contradicts muuvggkx, does most muuvggkx contradict some muuvggkx?",1
+332,"Given eqiyoqia contradicts eqiyoqia, does any eqiyoqia contradict most eqiyoqia?",1
+335,"Given ln contradicts ln, does ln contradict each ln?",1
+337,"Given fgleeank contradicts fgleeank, does few fgleeank contradict each fgleeank?",1
+348,"Given tglgzoco forward entails ytnc, does any ytnc reverse entail one tglgzoco?",1
+351,"Given frgb forward entails knxuqq, does some knxuqq reverse entail any frgb?",1
+355,"Given wgxxnb contradicts wgxxnb, does one wgxxnb contradict few wgxxnb?",1
+357,"Given ehb contradicts ehb, does not ehb forward entail any ehb?",1
+363,"Given tglgzoco reverse entails hior, does each hior forward entail any tglgzoco?",1
+364,"Given kvrzt contradicts kvrzt, does some kvrzt contradict any kvrzt?",1
+367,"Given pou forward entails rtrk, does one rtrk reverse entail each pou?",1
+375,"Given dm contradicts dm, does dm contradict most dm?",1
+377,"Given htum contradicts htum, does each htum forward entail not htum?",1
+389,"Given kk contradicts kk, does not kk reverse entail each kk?",1
+392,"Given jwivp contradicts jwivp, does most jwivp contradict few jwivp?",1
+400,"Given kiivya contradicts kiivya, does each kiivya forward entail not kiivya?",1
+406,"Given btsvlq forward entails rtguycs, does one rtguycs reverse entail few btsvlq?",1
+407,"Given yfh contradicts yfh, does each yfh contradict some yfh?",1
+409,"Given fgleeank reverse entails atvplhqf, does most atvplhqf forward entail each fgleeank?",1
+410,"Given oizzr reverse entails ehb, does each ehb forward entail one oizzr?",1
+418,"Given xtzxkryp reverse entails kvrzt, does one kvrzt forward entail few xtzxkryp?",1
+421,"Given gqyhjg forward entails uhuirm, does any uhuirm reverse entail few gqyhjg?",1
+429,"Given js forward entails jwivp, does jwivp reverse entail one js?",1
+438,"Given iok reverse entails cq, does any cq forward entail any iok?",1
+451,"Given gjo contradicts gjo, does some gjo contradict most gjo?",1
+459,"Given cv forward entails zgolco, does zgolco reverse entail some cv?",1
+461,"Given vgeuwyk reverse entails dqenp, does most dqenp forward entail few vgeuwyk?",1
+472,"Given zmmyov reverse entails itv, does each itv forward entail any zmmyov?",1
+478,"Given zjhwc reverse entails jdgfeqrx, does one jdgfeqrx forward entail each zjhwc?",1
+482,"Given rfpmbpun contradicts rfpmbpun, does few rfpmbpun contradict each rfpmbpun?",1
+486,"Given jcbwwlwv contradicts jcbwwlwv, does not jcbwwlwv reverse entail jcbwwlwv?",1
+488,"Given fwzm forward entails rhcd, does each rhcd reverse entail few fwzm?",1
+495,"Given grt contradicts grt, does most grt contradict each grt?",1
+497,"Given xzwoh reverse entails mr, does one mr forward entail xzwoh?",1
+498,"Given qicy contradicts qicy, does each qicy contradict some qicy?",1
+504,"Given jdgfeqrx contradicts jdgfeqrx, does few jdgfeqrx contradict jdgfeqrx?",1
+506,"Given fd forward entails vgeuwyk, does not fd reverse entail not vgeuwyk?",1
+512,"Given suhvkoe contradicts suhvkoe, does not suhvkoe reverse entail few suhvkoe?",1
+515,"Given phk reverse entails dsnjtgw, does some dsnjtgw forward entail phk?",1
+521,"Given kiivya contradicts kiivya, does few kiivya contradict one kiivya?",1
+529,"Given hjxlmxm reverse entails dnx, does one dnx forward entail some hjxlmxm?",1
+532,"Given hc reverse entails bnabxlkw, does any bnabxlkw forward entail some hc?",1
+533,"Given er reverse entails cq, does one cq forward entail some er?",1
+534,"Given xup contradicts xup, does some xup contradict any xup?",1
+541,"Given csito contradicts csito, does some csito forward entail not csito?",1
+543,"Given aassh forward entails suhvkoe, does one suhvkoe reverse entail some aassh?",1
+551,"Given rxmwrr contradicts rxmwrr, does some rxmwrr forward entail not rxmwrr?",1
+553,"Given zmmyov contradicts zmmyov, does most zmmyov contradict one zmmyov?",1
+568,"Given vbx contradicts vbx, does each vbx contradict any vbx?",1
+569,"Given xzwoh reverse entails mr, does any mr forward entail any xzwoh?",1
+576,"Given mhflr contradicts mhflr, does one mhflr contradict most mhflr?",1
+581,"Given luhjyw forward entails qkutwj, does each qkutwj reverse entail some luhjyw?",1
+582,"Given kdtnyuh contradicts kdtnyuh, does one kdtnyuh contradict any kdtnyuh?",1
+585,"Given rav contradicts rav, does few rav contradict any rav?",1
+599,"Given myaixpin forward entails tglgzoco, does each tglgzoco reverse entail most myaixpin?",1
+602,"Given jaowkveu forward entails xtzxkryp, does xtzxkryp reverse entail any jaowkveu?",1
+606,"Given muuvggkx reverse entails lrrfdyr, does few lrrfdyr forward entail one muuvggkx?",1
+612,"Given ehlpp contradicts ehlpp, does some ehlpp contradict most ehlpp?",1
+620,"Given ufyu forward entails zmmyov, does some zmmyov reverse entail few ufyu?",1
+635,"Given cjaj contradicts cjaj, does each cjaj contradict cjaj?",1
+646,"Given rtguycs contradicts rtguycs, does rtguycs contradict any rtguycs?",1
+647,"Given suhvkoe reverse entails bugrnv, does any bugrnv forward entail suhvkoe?",1
+651,"Given eejnumbd reverse entails dzbtf, does one dzbtf forward entail most eejnumbd?",1
+657,"Given vbs reverse entails igge, does some igge forward entail some vbs?",1
+659,"Given eejnumbd forward entails hior, does most hior reverse entail each eejnumbd?",1
+664,"Given sf contradicts sf, does not sf forward entail few sf?",1
+665,"Given dzrecho contradicts dzrecho, does most dzrecho contradict one dzrecho?",1
+672,"Given apfjpo forward entails wh, does each wh reverse entail each apfjpo?",1
+678,"Given rtrk contradicts rtrk, does few rtrk contradict some rtrk?",1
+682,"Given wh contradicts wh, does some wh reverse entail not wh?",1
+684,"Given dzrecho contradicts dzrecho, does dzrecho contradict some dzrecho?",1
+685,"Given jlgbdn contradicts jlgbdn, does few jlgbdn contradict jlgbdn?",1
+690,"Given zmmyov reverse entails itv, does each itv forward entail few zmmyov?",1
+691,"Given csito forward entails qxeovdy, does each qxeovdy reverse entail some csito?",1
+693,"Given qbdhzek contradicts qbdhzek, does one qbdhzek contradict most qbdhzek?",1
+694,"Given rxmwrr contradicts rxmwrr, does some rxmwrr contradict few rxmwrr?",1
+698,"Given orar contradicts orar, does one orar reverse entail not orar?",1
+700,"Given ddzg contradicts ddzg, does few ddzg reverse entail not ddzg?",1
+715,"Given xfpvroy contradicts xfpvroy, does not xfpvroy forward entail one xfpvroy?",1
+716,"Given cmx forward entails xfpvroy, does one xfpvroy reverse entail most cmx?",1
+720,"Given vv contradicts vv, does one vv contradict each vv?",1
+726,"Given vfxok contradicts vfxok, does most vfxok contradict most vfxok?",1
+727,"Given gpgtxnjl forward entails kxaj, does kxaj reverse entail one gpgtxnjl?",1
+730,"Given qzbvby reverse entails cwohnuwx, does some cwohnuwx forward entail one qzbvby?",1
+733,"Given lw contradicts lw, does one lw contradict lw?",1
+740,"Given htum reverse entails fkm, does fkm forward entail few htum?",1
+742,"Given da contradicts da, does one da reverse entail not da?",1
+747,"Given btsvlq contradicts btsvlq, does each btsvlq contradict few btsvlq?",1
+749,"Given lwgj contradicts lwgj, does one lwgj contradict lwgj?",1
+753,"Given qkutwj contradicts qkutwj, does not qkutwj reverse entail one qkutwj?",1
+758,"Given bugrnv forward entails suhvkoe, does each suhvkoe reverse entail each bugrnv?",1
+765,"Given ucpbjey reverse entails dsnjtgw, does few dsnjtgw forward entail few ucpbjey?",1
+766,"Given htjslm forward entails uchyf, does each uchyf reverse entail one htjslm?",1
+774,"Given xaioptqr contradicts xaioptqr, does not xaioptqr forward entail one xaioptqr?",1
+784,"Given ry contradicts ry, does not ry contradict not ry?",1
+789,"Given bnabxlkw forward entails kiivya, does each kiivya reverse entail bnabxlkw?",1
+790,"Given oizzr contradicts oizzr, does not oizzr forward entail most oizzr?",1
+804,"Given muuvggkx contradicts muuvggkx, does any muuvggkx contradict each muuvggkx?",1
+812,"Given grt contradicts grt, does one grt contradict some grt?",1
+818,"Given wgxxnb contradicts wgxxnb, does not wgxxnb forward entail each wgxxnb?",1
+819,"Given gjo forward entails hmbcrrex, does most hmbcrrex reverse entail most gjo?",1
+820,"Given znbpmy contradicts znbpmy, does each znbpmy contradict znbpmy?",1
+821,"Given bvq contradicts bvq, does one bvq reverse entail not bvq?",1
+828,"Given eqiyoqia forward entails kga, does few kga reverse entail eqiyoqia?",1
+834,"Given hc contradicts hc, does few hc contradict one hc?",1
+836,"Given fwzm contradicts fwzm, does few fwzm contradict one fwzm?",1
+837,"Given kdtnyuh reverse entails hjgigukv, does one hjgigukv forward entail one kdtnyuh?",1
+841,"Given yxfdjr reverse entails lrrfdyr, does some lrrfdyr forward entail some yxfdjr?",1
+846,"Given xup contradicts xup, does one xup forward entail not xup?",1
+847,"Given vn contradicts vn, does most vn contradict vn?",1
+854,"Given ntlxcmsg contradicts ntlxcmsg, does one ntlxcmsg reverse entail not ntlxcmsg?",1
+862,"Given btsvlq forward entails xdmipdb, does not xdmipdb forward entail not btsvlq?",1
+863,"Given grt contradicts grt, does one grt contradict grt?",1
+866,"Given mxjf contradicts mxjf, does most mxjf contradict mxjf?",1
+871,"Given kga forward entails xcr, does xcr reverse entail most kga?",1
+874,"Given vn contradicts vn, does most vn contradict each vn?",1
+881,"Given ytnc reverse entails qqlli, does qqlli forward entail some ytnc?",1
+894,"Given se contradicts se, does most se contradict se?",1
+896,"Given zgolco reverse entails cv, does cv forward entail each zgolco?",1
+902,"Given suhvkoe reverse entails bugrnv, does few bugrnv forward entail some suhvkoe?",1
+905,"Given skf contradicts skf, does few skf contradict skf?",1
+912,"Given lrrfdyr forward entails yxfdjr, does most yxfdjr reverse entail most lrrfdyr?",1
+916,"Given cmx contradicts cmx, does few cmx contradict cmx?",1
+932,"Given vec contradicts vec, does each vec contradict some vec?",1
+935,"Given ezgj contradicts ezgj, does not ezgj reverse entail most ezgj?",1
+941,"Given ejgjmc reverse entails eejnumbd, does most eejnumbd forward entail each ejgjmc?",1
+943,"Given ktcy contradicts ktcy, does any ktcy contradict ktcy?",1
+948,"Given zjhwc reverse entails jdgfeqrx, does jdgfeqrx forward entail zjhwc?",1
+0,"Given cjpf forward entails xcrfqbn, does not cjpf contradict xcrfqbn?",0
+1,"Given fwzm forward entails rhcd, does not rhcd forward entail any fwzm?",0
+3,"Given sntp forward entails vv, does each vv forward entail most sntp?",0
+4,"Given yopke reverse entails ydrb, does ydrb reverse entail not yopke?",0
+5,"Given kk reverse entails js, does one kk forward entail each js?",0
+6,"Given ufyu forward entails zmmyov, does most ufyu contradict each zmmyov?",0
+7,"Given kga reverse entails eqiyoqia, does eqiyoqia reverse entail most kga?",0
+8,"Given zjhwc reverse entails djvpkdn, does any zjhwc reverse entail not djvpkdn?",0
+14,"Given xzwoh reverse entails mr, does not xzwoh reverse entail any mr?",0
+15,"Given hjxlmxm reverse entails dnx, does not dnx forward entail any hjxlmxm?",0
+16,"Given iw reverse entails gqyhjg, does most gqyhjg reverse entail one iw?",0
+17,"Given zjhwc reverse entails djvpkdn, does zjhwc reverse entail few djvpkdn?",0
+18,"Given iw contradicts iw, does most iw reverse entail most iw?",0
+19,"Given jdgfeqrx forward entails jgdbuxui, does each jdgfeqrx reverse entail each jgdbuxui?",0
+20,"Given suhvkoe contradicts suhvkoe, does some suhvkoe forward entail some suhvkoe?",0
+21,"Given cgjxa forward entails kpbz, does not cgjxa contradict any kpbz?",0
+22,"Given zgolco reverse entails mtpkhd, does some mtpkhd reverse entail most zgolco?",0
+24,"Given xscbw reverse entails kk, does most kk reverse entail not xscbw?",0
+26,"Given jaowkveu forward entails xtzxkryp, does not jaowkveu contradict each xtzxkryp?",0
+27,"Given hior forward entails nhfcgxoj, does few hior reverse entail one nhfcgxoj?",0
+29,"Given dz forward entails knxuqq, does any dz contradict not knxuqq?",0
+31,"Given rtrk contradicts rtrk, does one rtrk forward entail one rtrk?",0
+32,"Given sf reverse entails cgjxa, does few sf contradict any cgjxa?",0
+33,"Given knxuqq contradicts knxuqq, does one knxuqq reverse entail each knxuqq?",0
+34,"Given qbdhzek contradicts qbdhzek, does not qbdhzek contradict each qbdhzek?",0
+36,"Given suhvkoe contradicts suhvkoe, does any suhvkoe reverse entail most suhvkoe?",0
+38,"Given nwlcvil forward entails vjgumkcn, does few nwlcvil forward entail vjgumkcn?",0
+39,"Given igge forward entails vbs, does one igge reverse entail few vbs?",0
+40,"Given bugrnv forward entails suhvkoe, does bugrnv reverse entail one suhvkoe?",0
+41,"Given ddzg forward entails vbs, does any ddzg reverse entail one vbs?",0
+42,"Given vxf contradicts vxf, does some vxf reverse entail few vxf?",0
+43,"Given gaga forward entails uchyf, does one gaga forward entail uchyf?",0
+44,"Given vbx contradicts vbx, does few vbx reverse entail any vbx?",0
+45,"Given cmwufcvo forward entails eelow, does each cmwufcvo forward entail some eelow?",0
+46,"Given oizzr reverse entails luhjyw, does any luhjyw reverse entail one oizzr?",0
+47,"Given jj forward entails ntlxcmsg, does some jj contradict some ntlxcmsg?",0
+48,"Given gtawzesf contradicts gtawzesf, does most gtawzesf forward entail one gtawzesf?",0
+50,"Given er contradicts er, does any er forward entail most er?",0
+51,"Given ppynewcj contradicts ppynewcj, does few ppynewcj forward entail one ppynewcj?",0
+53,"Given er forward entails hjxlmxm, does few hjxlmxm forward entail not er?",0
+54,"Given knxuqq reverse entails gqyhjg, does few gqyhjg forward entail not knxuqq?",0
+55,"Given xscbw reverse entails kk, does each xscbw reverse entail few kk?",0
+56,"Given lib contradicts lib, does few lib reverse entail each lib?",0
+57,"Given aiqdkt forward entails myaixpin, does not aiqdkt reverse entail any myaixpin?",0
+58,"Given wzp contradicts wzp, does any wzp forward entail few wzp?",0
+59,"Given rtguycs contradicts rtguycs, does few rtguycs forward entail any rtguycs?",0
+60,"Given jgdbuxui reverse entails jdgfeqrx, does one jdgfeqrx reverse entail most jgdbuxui?",0
+62,"Given dq contradicts dq, does some dq reverse entail dq?",0
+64,"Given atvplhqf forward entails fgleeank, does most atvplhqf contradict fgleeank?",0
+65,"Given wd contradicts wd, does each wd forward entail one wd?",0
+66,"Given jgdbuxui reverse entails jdgfeqrx, does few jgdbuxui contradict few jdgfeqrx?",0
+68,"Given suhvkoe reverse entails aassh, does suhvkoe reverse entail few aassh?",0
+69,"Given yfh contradicts yfh, does not yfh contradict one yfh?",0
+70,"Given htjslm forward entails uchyf, does any htjslm contradict any uchyf?",0
+72,"Given ekig contradicts ekig, does few ekig forward entail ekig?",0
+73,"Given oizzr reverse entails luhjyw, does each luhjyw forward entail not oizzr?",0
+74,"Given cgjxa forward entails ttbvn, does each cgjxa forward entail one ttbvn?",0
+76,"Given pou forward entails vkr, does most pou forward entail any vkr?",0
+77,"Given dqenp forward entails vgeuwyk, does some vgeuwyk contradict not dqenp?",0
+78,"Given eejnumbd forward entails ejgjmc, does eejnumbd reverse entail not ejgjmc?",0
+80,"Given bvc forward entails nzs, does not bvc contradict one nzs?",0
+81,"Given iok contradicts iok, does each iok forward entail any iok?",0
+82,"Given eghnpp forward entails vfxok, does each eghnpp reverse entail not vfxok?",0
+83,"Given uhuirm forward entails vbx, does some vbx contradict any uhuirm?",0
+84,"Given jqcqlmr forward entails lrrfdyr, does most jqcqlmr forward entail lrrfdyr?",0
+85,"Given qidohap forward entails tx, does one qidohap contradict each tx?",0
+86,"Given cq forward entails er, does any cq contradict any er?",0
+87,"Given atvplhqf forward entails fgleeank, does some fgleeank contradict one atvplhqf?",0
+89,"Given sekkgly contradicts sekkgly, does sekkgly reverse entail any sekkgly?",0
+90,"Given pou forward entails rtrk, does few pou forward entail each rtrk?",0
+91,"Given ufyu reverse entails gnwnygnn, does not gnwnygnn forward entail few ufyu?",0
+92,"Given olph contradicts olph, does any olph reverse entail most olph?",0
+94,"Given lzai contradicts lzai, does some lzai forward entail each lzai?",0
+95,"Given grt reverse entails bvq, does each bvq reverse entail each grt?",0
+96,"Given lrrfdyr reverse entails kibgshd, does some lrrfdyr forward entail one kibgshd?",0
+98,"Given dzrecho forward entails grt, does most grt contradict some dzrecho?",0
+99,"Given alglyz forward entails wzp, does any alglyz contradict few wzp?",0
+100,"Given lib reverse entails hior, does any hior reverse entail each lib?",0
+101,"Given bnabxlkw forward entails kiivya, does few kiivya contradict not bnabxlkw?",0
+102,"Given vkr reverse entails pou, does any vkr reverse entail one pou?",0
+103,"Given rxmwrr forward entails ttbvn, does not ttbvn contradict few rxmwrr?",0
+106,"Given zgolco contradicts zgolco, does zgolco reverse entail any zgolco?",0
+107,"Given muuvggkx reverse entails lrrfdyr, does most lrrfdyr contradict few muuvggkx?",0
+108,"Given fgleeank forward entails iizdyj, does few fgleeank forward entail few iizdyj?",0
+109,"Given esaj forward entails fwzm, does one fwzm contradict few esaj?",0
+110,"Given ufxbkkbb forward entails xscbw, does one ufxbkkbb reverse entail any xscbw?",0
+112,"Given vbs reverse entails igge, does most vbs contradict not igge?",0
+113,"Given qfs contradicts qfs, does qfs reverse entail each qfs?",0
+114,"Given irzs forward entails nk, does irzs reverse entail most nk?",0
+115,"Given eghnpp reverse entails ebiwen, does most eghnpp forward entail one ebiwen?",0
+116,"Given ppiwt reverse entails cwohnuwx, does ppiwt reverse entail most cwohnuwx?",0
+118,"Given xzwoh reverse entails mr, does not xzwoh contradict one mr?",0
+119,"Given nzs reverse entails dm, does few nzs reverse entail dm?",0
+120,"Given tmshaxq contradicts tmshaxq, does some tmshaxq reverse entail some tmshaxq?",0
+121,"Given wbx contradicts wbx, does one wbx reverse entail some wbx?",0
+122,"Given odrwt forward entails yxfdjr, does few odrwt forward entail any yxfdjr?",0
+123,"Given kyliu forward entails rhcd, does one rhcd forward entail few kyliu?",0
+124,"Given savfll reverse entails pctbns, does any pctbns reverse entail savfll?",0
+125,"Given dnx contradicts dnx, does most dnx reverse entail some dnx?",0
+126,"Given esaj reverse entails bmmxmguf, does one esaj contradict most bmmxmguf?",0
+127,"Given eghnpp forward entails vfxok, does few eghnpp forward entail vfxok?",0
+128,"Given oizzr forward entails vgeuwyk, does few vgeuwyk contradict each oizzr?",0
+129,"Given htjslm forward entails uchyf, does some htjslm contradict few uchyf?",0
+130,"Given phk reverse entails dsnjtgw, does not phk reverse entail few dsnjtgw?",0
+131,"Given lzai contradicts lzai, does each lzai forward entail lzai?",0
+133,"Given jdgfeqrx forward entails zjhwc, does each jdgfeqrx forward entail few zjhwc?",0
+134,"Given kk forward entails xscbw, does each kk contradict one xscbw?",0
+135,"Given vgeuwyk reverse entails oizzr, does most vgeuwyk reverse entail most oizzr?",0
+137,"Given zmmyov reverse entails hjgigukv, does any zmmyov reverse entail not hjgigukv?",0
+139,"Given js forward entails jwivp, does one jwivp forward entail not js?",0
+140,"Given mr forward entails xzwoh, does any mr contradict some xzwoh?",0
+141,"Given xdmipdb reverse entails btsvlq, does btsvlq reverse entail few xdmipdb?",0
+142,"Given kiivya reverse entails bnabxlkw, does not bnabxlkw reverse entail each kiivya?",0
+143,"Given orar contradicts orar, does each orar forward entail one orar?",0
+144,"Given jdgfeqrx forward entails jgdbuxui, does few jdgfeqrx forward entail not jgdbuxui?",0
+145,"Given yxfdjr reverse entails cq, does one cq contradict few yxfdjr?",0
+146,"Given xar reverse entails nhfcgxoj, does not xar reverse entail any nhfcgxoj?",0
+147,"Given igapxruc forward entails nhfcgxoj, does each igapxruc forward entail few nhfcgxoj?",0
+148,"Given aiqdkt forward entails myaixpin, does each aiqdkt contradict some myaixpin?",0
+149,"Given iizdyj reverse entails fgleeank, does some fgleeank contradict iizdyj?",0
+150,"Given zcsrotcj contradicts zcsrotcj, does most zcsrotcj reverse entail some zcsrotcj?",0
+151,"Given muuvggkx reverse entails lrrfdyr, does lrrfdyr reverse entail each muuvggkx?",0
+155,"Given ezgj contradicts ezgj, does ezgj reverse entail some ezgj?",0
+156,"Given oshk reverse entails kga, does oshk reverse entail some kga?",0
+159,"Given dz forward entails wzzui, does some wzzui forward entail some dz?",0
+160,"Given oddnfj reverse entails murm, does one oddnfj reverse entail one murm?",0
+161,"Given apfjpo forward entails xcr, does some apfjpo contradict one xcr?",0
+162,"Given phk reverse entails dsnjtgw, does most dsnjtgw reverse entail most phk?",0
+163,"Given vbs reverse entails kdtnyuh, does most vbs contradict kdtnyuh?",0
+164,"Given vbx forward entails yfh, does some vbx reverse entail one yfh?",0
+166,"Given cwohnuwx forward entails qzbvby, does any cwohnuwx reverse entail most qzbvby?",0
+169,"Given zyzssnl reverse entails dzbtf, does few dzbtf reverse entail one zyzssnl?",0
+171,"Given ddzg forward entails vbs, does each ddzg reverse entail most vbs?",0
+173,"Given xzwoh reverse entails mr, does any mr reverse entail few xzwoh?",0
+174,"Given xcr reverse entails kga, does some xcr forward entail kga?",0
+175,"Given joxkc reverse entails htum, does each joxkc reverse entail most htum?",0
+176,"Given vydsmzci reverse entails vdquesec, does one vydsmzci forward entail some vdquesec?",0
+178,"Given ry contradicts ry, does any ry forward entail few ry?",0
+179,"Given zkk reverse entails xtzxkryp, does each zkk reverse entail not xtzxkryp?",0
+181,"Given bvc forward entails nzs, does any bvc reverse entail nzs?",0
+182,"Given gqyhjg forward entails knxuqq, does most gqyhjg contradict some knxuqq?",0
+183,"Given zqdyqqj contradicts zqdyqqj, does any zqdyqqj forward entail some zqdyqqj?",0
+185,"Given yrar reverse entails skf, does each yrar reverse entail each skf?",0
+187,"Given atvplhqf forward entails na, does some na contradict atvplhqf?",0
+188,"Given aassh forward entails suhvkoe, does aassh reverse entail each suhvkoe?",0
+190,"Given nwlcvil forward entails pocee, does any nwlcvil contradict most pocee?",0
+191,"Given jgdbuxui reverse entails jdgfeqrx, does some jdgfeqrx contradict some jgdbuxui?",0
+192,"Given csito contradicts csito, does csito reverse entail one csito?",0
+193,"Given qxeovdy reverse entails csito, does any csito contradict each qxeovdy?",0
+194,"Given agv forward entails eudadwfr, does any eudadwfr forward entail some agv?",0
+195,"Given mr reverse entails aiqdkt, does each mr reverse entail most aiqdkt?",0
+196,"Given kga reverse entails ekig, does most kga forward entail most ekig?",0
+197,"Given vgeuwyk reverse entails oizzr, does each vgeuwyk contradict some oizzr?",0
+198,"Given xup contradicts xup, does some xup forward entail any xup?",0
+199,"Given phk forward entails xcrfqbn, does xcrfqbn contradict some phk?",0
+200,"Given tglgzoco forward entails ytnc, does not tglgzoco forward entail not ytnc?",0
+201,"Given myaixpin reverse entails aiqdkt, does any aiqdkt reverse entail any myaixpin?",0
+202,"Given phk reverse entails nhfcgxoj, does each phk reverse entail any nhfcgxoj?",0
+205,"Given zmmyov reverse entails hjgigukv, does any hjgigukv contradict few zmmyov?",0
+206,"Given dq contradicts dq, does any dq reverse entail few dq?",0
+207,"Given jqcqlmr reverse entails jcbwwlwv, does not jcbwwlwv contradict each jqcqlmr?",0
+208,"Given tglgzoco reverse entails ebiwen, does tglgzoco forward entail most ebiwen?",0
+211,"Given eghnpp forward entails vgeuwyk, does each vgeuwyk forward entail some eghnpp?",0
+212,"Given osexvm contradicts osexvm, does not osexvm forward entail not osexvm?",0
+213,"Given yeawuby contradicts yeawuby, does yeawuby reverse entail each yeawuby?",0
+214,"Given ytnc reverse entails fgleeank, does ytnc forward entail fgleeank?",0
+215,"Given lrrfdyr contradicts lrrfdyr, does each lrrfdyr reverse entail each lrrfdyr?",0
+216,"Given zkk contradicts zkk, does few zkk reverse entail most zkk?",0
+217,"Given jqcqlmr forward entails lrrfdyr, does not lrrfdyr reverse entail one jqcqlmr?",0
+218,"Given tx reverse entails itv, does most tx contradict few itv?",0
+219,"Given gnwnygnn contradicts gnwnygnn, does not gnwnygnn contradict each gnwnygnn?",0
+220,"Given yxfdjr reverse entails cjpf, does one yxfdjr contradict not cjpf?",0
+221,"Given qicy contradicts qicy, does most qicy forward entail most qicy?",0
+222,"Given jj forward entails ntlxcmsg, does some jj contradict each ntlxcmsg?",0
+223,"Given na reverse entails atvplhqf, does not atvplhqf contradict most na?",0
+224,"Given cjpf forward entails wbx, does one cjpf contradict wbx?",0
+226,"Given js forward entails lcjxmr, does each js reverse entail not lcjxmr?",0
+227,"Given ppiwt reverse entails cwohnuwx, does cwohnuwx reverse entail any ppiwt?",0
+228,"Given gqyhjg forward entails uhuirm, does any uhuirm forward entail not gqyhjg?",0
+229,"Given se reverse entails jhm, does most jhm contradict any se?",0
+230,"Given xl contradicts xl, does any xl reverse entail one xl?",0
+231,"Given nhfcgxoj reverse entails hior, does any hior reverse entail nhfcgxoj?",0
+232,"Given cgjxa forward entails kpbz, does not cgjxa contradict some kpbz?",0
+233,"Given odrwt forward entails yxfdjr, does each yxfdjr contradict not odrwt?",0
+234,"Given ehlpp contradicts ehlpp, does most ehlpp forward entail most ehlpp?",0
+235,"Given ufxbkkbb reverse entails sf, does each ufxbkkbb contradict each sf?",0
+237,"Given uhuirm reverse entails gqyhjg, does gqyhjg reverse entail not uhuirm?",0
+238,"Given vkr reverse entails pou, does most pou contradict one vkr?",0
+239,"Given olph reverse entails irzs, does few olph contradict not irzs?",0
+240,"Given pctbns reverse entails dbd, does dbd contradict most pctbns?",0
+242,"Given muuvggkx contradicts muuvggkx, does few muuvggkx forward entail few muuvggkx?",0
+243,"Given ytnc reverse entails qqlli, does each ytnc forward entail each qqlli?",0
+244,"Given vgeuwyk reverse entails fd, does one vgeuwyk contradict fd?",0
+246,"Given lwgj forward entails ufxbkkbb, does some lwgj contradict most ufxbkkbb?",0
+248,"Given eghnpp forward entails vgeuwyk, does one vgeuwyk reverse entail not eghnpp?",0
+249,"Given gpgtxnjl forward entails kxaj, does some kxaj contradict one gpgtxnjl?",0
+250,"Given iw reverse entails gqyhjg, does not iw forward entail any gqyhjg?",0
+251,"Given iok reverse entails cq, does few cq reverse entail not iok?",0
+252,"Given xofxc reverse entails se, does any xofxc forward entail one se?",0
+253,"Given vv contradicts vv, does any vv reverse entail one vv?",0
+1,"Given 327 contradicts 327, does some 327 forward entail not 327?",1
+3,"Given 876 contradicts 876, does most 876 forward entail not 876?",1
+7,"Given 346 contradicts 346, does not 346 reverse entail 346?",1
+8,"Given 270 forward entails 410, does each 410 reverse entail 270?",1
+11,"Given 633 contradicts 633, does most 633 contradict each 633?",1
+34,"Given 341 reverse entails 138, does 138 forward entail one 341?",1
+35,"Given 28 contradicts 28, does each 28 contradict any 28?",1
+46,"Given 627 contradicts 627, does some 627 contradict most 627?",1
+55,"Given 677 reverse entails 320, does few 320 forward entail most 677?",1
+56,"Given 366 contradicts 366, does 366 reverse entail not 366?",1
+61,"Given 479 contradicts 479, does some 479 contradict most 479?",1
+62,"Given 733 contradicts 733, does not 733 reverse entail 733?",1
+64,"Given 494 reverse entails 367, does most 367 forward entail each 494?",1
+67,"Given 159 contradicts 159, does not 159 forward entail most 159?",1
+70,"Given 990 forward entails 997, does one 997 reverse entail one 990?",1
+71,"Given 693 reverse entails 554, does few 554 forward entail each 693?",1
+81,"Given 966 reverse entails 228, does 228 forward entail 966?",1
+94,"Given 877 reverse entails 107, does each 107 forward entail any 877?",1
+101,"Given 935 reverse entails 305, does some 305 forward entail one 935?",1
+102,"Given 171 forward entails 928, does most 928 reverse entail one 171?",1
+103,"Given 127 contradicts 127, does few 127 contradict few 127?",1
+104,"Given 138 contradicts 138, does each 138 reverse entail not 138?",1
+112,"Given 849 reverse entails 54, does few 54 forward entail 849?",1
+115,"Given 754 reverse entails 733, does each 733 forward entail few 754?",1
+117,"Given 229 forward entails 456, does one 456 reverse entail any 229?",1
+124,"Given 336 contradicts 336, does most 336 contradict some 336?",1
+125,"Given 657 contradicts 657, does each 657 contradict 657?",1
+132,"Given 680 reverse entails 663, does not 663 reverse entail not 680?",1
+143,"Given 348 contradicts 348, does some 348 reverse entail not 348?",1
+158,"Given 554 forward entails 693, does some 693 reverse entail some 554?",1
+165,"Given 84 contradicts 84, does any 84 contradict each 84?",1
+171,"Given 538 contradicts 538, does one 538 contradict some 538?",1
+173,"Given 791 contradicts 791, does one 791 contradict most 791?",1
+178,"Given 434 reverse entails 99, does most 99 forward entail some 434?",1
+184,"Given 336 reverse entails 99, does few 99 forward entail some 336?",1
+185,"Given 771 contradicts 771, does few 771 contradict few 771?",1
+191,"Given 580 contradicts 580, does most 580 contradict any 580?",1
+193,"Given 68 forward entails 876, does most 876 reverse entail any 68?",1
+194,"Given 119 contradicts 119, does each 119 contradict any 119?",1
+202,"Given 37 forward entails 367, does most 367 reverse entail any 37?",1
+215,"Given 695 reverse entails 119, does one 119 forward entail each 695?",1
+223,"Given 785 contradicts 785, does most 785 contradict few 785?",1
+224,"Given 448 contradicts 448, does some 448 contradict one 448?",1
+231,"Given 138 contradicts 138, does 138 contradict any 138?",1
+234,"Given 538 contradicts 538, does most 538 forward entail not 538?",1
+239,"Given 100 contradicts 100, does each 100 forward entail not 100?",1
+241,"Given 129 contradicts 129, does few 129 forward entail not 129?",1
+244,"Given 733 forward entails 754, does one 754 reverse entail 733?",1
+245,"Given 466 reverse entails 409, does 409 forward entail one 466?",1
+247,"Given 69 contradicts 69, does 69 forward entail not 69?",1
+251,"Given 184 contradicts 184, does any 184 contradict one 184?",1
+253,"Given 50 contradicts 50, does each 50 forward entail not 50?",1
+258,"Given 646 contradicts 646, does few 646 contradict 646?",1
+259,"Given 100 forward entails 520, does each 520 reverse entail few 100?",1
+268,"Given 48 contradicts 48, does most 48 contradict some 48?",1
+271,"Given 677 reverse entails 320, does some 320 forward entail 677?",1
+277,"Given 705 contradicts 705, does few 705 forward entail not 705?",1
+279,"Given 510 forward entails 529, does few 529 reverse entail any 510?",1
+281,"Given 538 reverse entails 228, does one 228 forward entail any 538?",1
+288,"Given 384 forward entails 774, does most 774 reverse entail few 384?",1
+290,"Given 782 contradicts 782, does 782 contradict one 782?",1
+293,"Given 99 forward entails 434, does few 434 reverse entail most 99?",1
+296,"Given 54 forward entails 956, does not 54 reverse entail not 956?",1
+298,"Given 607 contradicts 607, does few 607 reverse entail not 607?",1
+299,"Given 466 forward entails 869, does any 869 reverse entail each 466?",1
+310,"Given 310 contradicts 310, does not 310 reverse entail one 310?",1
+311,"Given 171 forward entails 677, does each 677 reverse entail few 171?",1
+314,"Given 774 contradicts 774, does each 774 contradict any 774?",1
+321,"Given 66 forward entails 633, does any 633 reverse entail one 66?",1
+323,"Given 777 contradicts 777, does not 777 forward entail most 777?",1
+344,"Given 633 forward entails 796, does each 796 reverse entail each 633?",1
+356,"Given 270 reverse entails 203, does 203 forward entail any 270?",1
+360,"Given 895 contradicts 895, does few 895 contradict any 895?",1
+363,"Given 55 forward entails 895, does not 55 reverse entail not 895?",1
+364,"Given 58 forward entails 560, does 560 reverse entail any 58?",1
+368,"Given 228 forward entails 966, does any 966 reverse entail 228?",1
+372,"Given 482 forward entails 789, does 789 reverse entail 482?",1
+373,"Given 552 forward entails 758, does most 758 reverse entail one 552?",1
+403,"Given 774 contradicts 774, does some 774 contradict some 774?",1
+404,"Given 348 contradicts 348, does not 348 forward entail most 348?",1
+405,"Given 681 reverse entails 100, does some 100 forward entail few 681?",1
+416,"Given 552 reverse entails 234, does most 234 forward entail any 552?",1
+421,"Given 28 forward entails 369, does some 369 reverse entail any 28?",1
+425,"Given 481 reverse entails 386, does any 386 forward entail some 481?",1
+432,"Given 607 contradicts 607, does some 607 contradict 607?",1
+434,"Given 876 reverse entails 777, does any 777 forward entail some 876?",1
+440,"Given 205 contradicts 205, does most 205 contradict each 205?",1
+441,"Given 611 contradicts 611, does each 611 reverse entail not 611?",1
+442,"Given 411 contradicts 411, does 411 contradict some 411?",1
+443,"Given 620 contradicts 620, does any 620 contradict each 620?",1
+449,"Given 578 contradicts 578, does most 578 contradict 578?",1
+452,"Given 100 contradicts 100, does some 100 contradict most 100?",1
+458,"Given 615 reverse entails 568, does each 568 forward entail most 615?",1
+465,"Given 695 reverse entails 666, does 666 forward entail one 695?",1
+474,"Given 119 forward entails 695, does few 695 reverse entail some 119?",1
+478,"Given 969 reverse entails 747, does most 747 forward entail one 969?",1
+479,"Given 705 contradicts 705, does not 705 contradict not 705?",1
+483,"Given 54 forward entails 956, does one 956 reverse entail any 54?",1
+484,"Given 562 contradicts 562, does each 562 contradict any 562?",1
+491,"Given 220 contradicts 220, does one 220 reverse entail not 220?",1
+496,"Given 456 contradicts 456, does any 456 contradict any 456?",1
+497,"Given 48 contradicts 48, does few 48 contradict most 48?",1
+498,"Given 785 reverse entails 434, does any 434 forward entail most 785?",1
+500,"Given 619 contradicts 619, does 619 forward entail not 619?",1
+501,"Given 961 contradicts 961, does 961 contradict few 961?",1
+514,"Given 956 reverse entails 568, does one 568 forward entail each 956?",1
+521,"Given 666 reverse entails 305, does 305 forward entail one 666?",1
+524,"Given 330 contradicts 330, does some 330 contradict few 330?",1
+526,"Given 520 forward entails 720, does each 720 reverse entail any 520?",1
+535,"Given 159 forward entails 782, does each 782 reverse entail some 159?",1
+537,"Given 740 contradicts 740, does most 740 contradict each 740?",1
+560,"Given 381 contradicts 381, does most 381 contradict 381?",1
+575,"Given 423 contradicts 423, does one 423 contradict any 423?",1
+576,"Given 828 reverse entails 107, does each 107 forward entail most 828?",1
+577,"Given 32 contradicts 32, does 32 contradict some 32?",1
+581,"Given 969 contradicts 969, does not 969 reverse entail each 969?",1
+582,"Given 225 contradicts 225, does some 225 contradict one 225?",1
+593,"Given 960 contradicts 960, does any 960 contradict some 960?",1
+597,"Given 327 reverse entails 60, does not 327 forward entail not 60?",1
+599,"Given 353 contradicts 353, does each 353 contradict 353?",1
+604,"Given 506 forward entails 976, does one 976 reverse entail most 506?",1
+614,"Given 346 contradicts 346, does not 346 contradict not 346?",1
+618,"Given 283 contradicts 283, does few 283 forward entail not 283?",1
+621,"Given 28 forward entails 369, does any 369 reverse entail 28?",1
+623,"Given 220 contradicts 220, does one 220 contradict each 220?",1
+625,"Given 76 contradicts 76, does not 76 reverse entail most 76?",1
+627,"Given 129 contradicts 129, does few 129 contradict few 129?",1
+631,"Given 627 forward entails 789, does any 789 reverse entail some 627?",1
+634,"Given 933 contradicts 933, does any 933 forward entail not 933?",1
+636,"Given 782 contradicts 782, does one 782 contradict any 782?",1
+638,"Given 666 contradicts 666, does few 666 contradict each 666?",1
+640,"Given 285 contradicts 285, does 285 contradict each 285?",1
+641,"Given 417 contradicts 417, does one 417 contradict few 417?",1
+643,"Given 171 contradicts 171, does not 171 reverse entail 171?",1
+647,"Given 466 contradicts 466, does few 466 contradict some 466?",1
+651,"Given 212 contradicts 212, does any 212 contradict one 212?",1
+656,"Given 423 reverse entails 92, does 92 forward entail any 423?",1
+670,"Given 748 reverse entails 657, does each 657 forward entail most 748?",1
+678,"Given 12 contradicts 12, does one 12 contradict some 12?",1
+681,"Given 71 forward entails 932, does few 932 reverse entail each 71?",1
+684,"Given 205 contradicts 205, does few 205 contradict each 205?",1
+685,"Given 961 contradicts 961, does each 961 reverse entail not 961?",1
+689,"Given 774 contradicts 774, does most 774 contradict any 774?",1
+690,"Given 275 forward entails 929, does some 929 reverse entail most 275?",1
+693,"Given 119 contradicts 119, does 119 contradict each 119?",1
+694,"Given 336 forward entails 845, does most 845 reverse entail most 336?",1
+700,"Given 212 contradicts 212, does few 212 reverse entail not 212?",1
+717,"Given 386 forward entails 481, does each 481 reverse entail one 386?",1
+718,"Given 950 contradicts 950, does 950 forward entail not 950?",1
+722,"Given 466 contradicts 466, does one 466 contradict some 466?",1
+728,"Given 434 forward entails 785, does 785 reverse entail some 434?",1
+729,"Given 12 contradicts 12, does any 12 contradict some 12?",1
+730,"Given 774 reverse entails 384, does not 774 forward entail not 384?",1
+733,"Given 107 forward entails 828, does each 828 reverse entail most 107?",1
+735,"Given 246 forward entails 577, does any 577 reverse entail few 246?",1
+744,"Given 961 reverse entails 959, does few 959 forward entail some 961?",1
+745,"Given 336 contradicts 336, does one 336 contradict any 336?",1
+746,"Given 780 contradicts 780, does 780 contradict few 780?",1
+749,"Given 119 forward entails 695, does any 695 reverse entail 119?",1
+757,"Given 725 contradicts 725, does 725 contradict most 725?",1
+763,"Given 597 contradicts 597, does 597 contradict few 597?",1
+767,"Given 205 contradicts 205, does most 205 contradict most 205?",1
+768,"Given 163 contradicts 163, does few 163 contradict each 163?",1
+769,"Given 119 forward entails 720, does some 720 reverse entail most 119?",1
+771,"Given 959 reverse entails 724, does one 724 forward entail few 959?",1
+776,"Given 159 contradicts 159, does few 159 contradict most 159?",1
+778,"Given 440 contradicts 440, does any 440 forward entail not 440?",1
+779,"Given 619 reverse entails 562, does few 562 forward entail some 619?",1
+780,"Given 494 contradicts 494, does some 494 contradict 494?",1
+786,"Given 864 contradicts 864, does some 864 contradict 864?",1
+806,"Given 183 contradicts 183, does each 183 contradict few 183?",1
+808,"Given 84 contradicts 84, does 84 contradict few 84?",1
+812,"Given 506 forward entails 976, does some 976 reverse entail 506?",1
+824,"Given 646 forward entails 948, does one 948 reverse entail 646?",1
+827,"Given 741 contradicts 741, does not 741 reverse entail 741?",1
+832,"Given 366 contradicts 366, does most 366 reverse entail not 366?",1
+835,"Given 184 forward entails 456, does few 456 reverse entail each 184?",1
+839,"Given 107 forward entails 877, does each 877 reverse entail any 107?",1
+840,"Given 369 reverse entails 28, does some 28 forward entail 369?",1
+846,"Given 612 contradicts 612, does most 612 forward entail not 612?",1
+849,"Given 69 contradicts 69, does not 69 reverse entail each 69?",1
+851,"Given 129 forward entails 572, does one 572 reverse entail any 129?",1
+854,"Given 212 contradicts 212, does each 212 contradict one 212?",1
+858,"Given 735 reverse entails 234, does some 234 forward entail one 735?",1
+867,"Given 780 contradicts 780, does each 780 contradict most 780?",1
+869,"Given 790 reverse entails 487, does 487 forward entail some 790?",1
+877,"Given 42 contradicts 42, does each 42 reverse entail not 42?",1
+883,"Given 966 reverse entails 228, does each 228 forward entail few 966?",1
+887,"Given 612 reverse entails 263, does 263 forward entail most 612?",1
+903,"Given 212 contradicts 212, does not 212 reverse entail any 212?",1
+907,"Given 409 forward entails 940, does one 940 reverse entail one 409?",1
+913,"Given 956 reverse entails 80, does any 80 forward entail most 956?",1
+916,"Given 695 reverse entails 666, does most 666 forward entail few 695?",1
+924,"Given 697 reverse entails 384, does one 384 forward entail each 697?",1
+927,"Given 880 contradicts 880, does one 880 contradict one 880?",1
+929,"Given 618 forward entails 657, does few 657 reverse entail some 618?",1
+932,"Given 798 contradicts 798, does most 798 contradict few 798?",1
+940,"Given 923 reverse entails 153, does each 153 forward entail 923?",1
+945,"Given 66 contradicts 66, does 66 contradict most 66?",1
+947,"Given 877 reverse entails 107, does one 107 forward entail few 877?",1
+0,"Given 960 contradicts 960, does few 960 reverse entail most 960?",0
+2,"Given 107 forward entails 828, does some 107 contradict not 828?",0
+4,"Given 969 reverse entails 270, does one 969 forward entail 270?",0
+5,"Given 228 forward entails 966, does one 228 reverse entail most 966?",0
+6,"Given 196 forward entails 758, does one 196 reverse entail not 758?",0
+9,"Given 735 forward entails 741, does most 735 contradict 741?",0
+10,"Given 523 reverse entails 409, does each 409 contradict any 523?",0
+12,"Given 742 reverse entails 171, does some 742 forward entail few 171?",0
+13,"Given 332 forward entails 991, does some 332 reverse entail any 991?",0
+14,"Given 966 contradicts 966, does 966 reverse entail any 966?",0
+15,"Given 791 reverse entails 241, does one 241 reverse entail few 791?",0
+16,"Given 758 reverse entails 552, does any 758 reverse entail each 552?",0
+17,"Given 615 contradicts 615, does 615 reverse entail any 615?",0
+18,"Given 234 forward entails 735, does most 234 contradict most 735?",0
+19,"Given 506 forward entails 976, does one 976 contradict not 506?",0
+20,"Given 142 forward entails 586, does one 586 forward entail any 142?",0
+21,"Given 448 forward entails 475, does each 448 forward entail one 475?",0
+22,"Given 220 contradicts 220, does any 220 reverse entail most 220?",0
+23,"Given 790 forward entails 893, does some 893 contradict few 790?",0
+24,"Given 389 forward entails 577, does 577 contradict most 389?",0
+25,"Given 409 forward entails 831, does some 831 contradict 409?",0
+26,"Given 720 forward entails 999, does few 720 reverse entail not 999?",0
+27,"Given 735 reverse entails 234, does not 234 forward entail each 735?",0
+28,"Given 966 reverse entails 619, does not 619 forward entail any 966?",0
+29,"Given 206 forward entails 752, does most 206 reverse entail any 752?",0
+30,"Given 366 reverse entails 9, does few 366 forward entail any 9?",0
+31,"Given 965 contradicts 965, does any 965 reverse entail some 965?",0
+32,"Given 203 forward entails 586, does few 586 forward entail one 203?",0
+33,"Given 206 reverse entails 92, does some 206 reverse entail one 92?",0
+36,"Given 305 forward entails 935, does not 305 contradict any 935?",0
+37,"Given 990 contradicts 990, does few 990 reverse entail one 990?",0
+38,"Given 540 contradicts 540, does few 540 reverse entail few 540?",0
+39,"Given 876 reverse entails 777, does most 876 contradict some 777?",0
+40,"Given 928 reverse entails 171, does some 928 reverse entail one 171?",0
+41,"Given 74 forward entails 552, does 74 reverse entail some 552?",0
+42,"Given 409 forward entails 948, does one 948 contradict 409?",0
+43,"Given 745 reverse entails 163, does one 745 forward entail any 163?",0
+44,"Given 849 contradicts 849, does few 849 reverse entail any 849?",0
+45,"Given 341 contradicts 341, does one 341 reverse entail few 341?",0
+47,"Given 956 reverse entails 568, does most 956 contradict 568?",0
+48,"Given 742 reverse entails 171, does not 742 contradict most 171?",0
+49,"Given 327 reverse entails 60, does few 60 contradict each 327?",0
+50,"Given 263 forward entails 612, does 263 forward entail some 612?",0
+51,"Given 234 forward entails 735, does 234 contradict any 735?",0
+52,"Given 106 contradicts 106, does few 106 forward entail any 106?",0
+53,"Given 577 reverse entails 456, does some 577 forward entail not 456?",0
+54,"Given 552 forward entails 758, does some 552 reverse entail not 758?",0
+57,"Given 46 forward entails 456, does one 456 contradict most 46?",0
+58,"Given 106 forward entails 229, does few 229 contradict few 106?",0
+59,"Given 758 reverse entails 196, does some 758 forward entail some 196?",0
+60,"Given 695 reverse entails 666, does one 695 reverse entail one 666?",0
+63,"Given 705 contradicts 705, does some 705 reverse entail some 705?",0
+65,"Given 409 forward entails 845, does any 409 reverse entail any 845?",0
+66,"Given 327 reverse entails 60, does each 327 reverse entail one 60?",0
+68,"Given 368 forward entails 776, does one 368 contradict each 776?",0
+69,"Given 92 forward entails 206, does some 92 forward entail 206?",0
+72,"Given 353 reverse entails 277, does not 353 contradict few 277?",0
+73,"Given 138 forward entails 451, does any 451 forward entail 138?",0
+74,"Given 120 contradicts 120, does few 120 forward entail any 120?",0
+75,"Given 32 contradicts 32, does any 32 reverse entail one 32?",0
+76,"Given 66 forward entails 127, does some 66 forward entail not 127?",0
+77,"Given 938 reverse entails 206, does 938 contradict each 206?",0
+78,"Given 782 contradicts 782, does most 782 forward entail each 782?",0
+79,"Given 663 forward entails 680, does 680 forward entail any 663?",0
+80,"Given 791 contradicts 791, does any 791 reverse entail any 791?",0
+82,"Given 440 forward entails 831, does any 440 forward entail each 831?",0
+83,"Given 748 reverse entails 657, does one 748 forward entail few 657?",0
+84,"Given 558 reverse entails 68, does one 68 reverse entail one 558?",0
+85,"Given 482 forward entails 789, does 789 contradict 482?",0
+86,"Given 417 contradicts 417, does each 417 reverse entail 417?",0
+87,"Given 530 forward entails 620, does 530 forward entail most 620?",0
+88,"Given 332 forward entails 991, does each 332 contradict not 991?",0
+89,"Given 171 contradicts 171, does most 171 forward entail few 171?",0
+90,"Given 720 contradicts 720, does one 720 forward entail most 720?",0
+91,"Given 229 contradicts 229, does few 229 reverse entail most 229?",0
+92,"Given 386 forward entails 776, does one 386 contradict 776?",0
+93,"Given 940 contradicts 940, does not 940 contradict any 940?",0
+95,"Given 322 forward entails 352, does most 322 forward entail one 352?",0
+96,"Given 685 contradicts 685, does one 685 contradict not 685?",0
+97,"Given 735 reverse entails 234, does some 735 forward entail any 234?",0
+98,"Given 782 reverse entails 159, does most 159 contradict few 782?",0
+99,"Given 411 contradicts 411, does most 411 reverse entail most 411?",0
+100,"Given 37 forward entails 367, does each 37 contradict one 367?",0
+105,"Given 250 forward entails 690, does not 690 contradict one 250?",0
+106,"Given 923 reverse entails 153, does most 153 contradict few 923?",0
+107,"Given 60 forward entails 327, does few 327 contradict not 60?",0
+108,"Given 697 reverse entails 384, does each 697 contradict few 384?",0
+109,"Given 657 contradicts 657, does each 657 reverse entail any 657?",0
+110,"Given 577 reverse entails 389, does any 577 forward entail one 389?",0
+111,"Given 959 reverse entails 724, does some 959 contradict one 724?",0
+113,"Given 135 forward entails 665, does most 665 contradict each 135?",0
+114,"Given 937 contradicts 937, does few 937 forward entail few 937?",0
+116,"Given 277 forward entails 353, does any 353 contradict any 277?",0
+118,"Given 976 reverse entails 506, does one 976 contradict 506?",0
+119,"Given 554 contradicts 554, does most 554 reverse entail most 554?",0
+120,"Given 9 forward entails 366, does any 366 forward entail most 9?",0
+121,"Given 127 contradicts 127, does any 127 forward entail one 127?",0
+122,"Given 482 contradicts 482, does any 482 reverse entail one 482?",0
+123,"Given 284 reverse entails 163, does most 284 forward entail some 163?",0
+126,"Given 680 reverse entails 663, does one 680 contradict 663?",0
+127,"Given 745 contradicts 745, does any 745 forward entail 745?",0
+128,"Given 816 contradicts 816, does most 816 reverse entail any 816?",0
+129,"Given 366 contradicts 366, does some 366 reverse entail each 366?",0
+130,"Given 959 reverse entails 724, does one 959 forward entail one 724?",0
+131,"Given 748 reverse entails 58, does not 748 reverse entail any 58?",0
+133,"Given 966 reverse entails 619, does not 966 forward entail 619?",0
+134,"Given 196 forward entails 758, does each 196 contradict 758?",0
+135,"Given 707 reverse entails 179, does few 707 reverse entail few 179?",0
+136,"Given 305 forward entails 540, does one 305 reverse entail some 540?",0
+137,"Given 179 forward entails 707, does one 179 forward entail any 707?",0
+138,"Given 724 forward entails 959, does most 959 contradict each 724?",0
+139,"Given 69 forward entails 895, does each 69 forward entail few 895?",0
+140,"Given 268 forward entails 816, does any 268 reverse entail not 816?",0
+141,"Given 212 forward entails 828, does any 828 forward entail each 212?",0
+142,"Given 707 reverse entails 179, does one 707 reverse entail most 179?",0
+144,"Given 697 forward entails 832, does 697 reverse entail 832?",0
+145,"Given 467 contradicts 467, does one 467 forward entail some 467?",0
+146,"Given 353 reverse entails 277, does one 277 contradict 353?",0
+147,"Given 618 forward entails 657, does most 618 forward entail any 657?",0
+148,"Given 724 forward entails 959, does few 724 reverse entail one 959?",0
+149,"Given 872 reverse entails 42, does any 872 reverse entail not 42?",0
+150,"Given 176 contradicts 176, does any 176 reverse entail one 176?",0
+151,"Given 960 contradicts 960, does some 960 reverse entail each 960?",0
+152,"Given 448 forward entails 475, does any 475 forward entail 448?",0
+153,"Given 263 forward entails 612, does few 612 forward entail one 263?",0
+154,"Given 176 forward entails 330, does few 330 forward entail few 176?",0
+155,"Given 497 reverse entails 368, does most 368 contradict 497?",0
+156,"Given 677 forward entails 895, does each 677 forward entail any 895?",0
+157,"Given 872 reverse entails 266, does most 266 contradict each 872?",0
+159,"Given 771 reverse entails 667, does one 667 reverse entail each 771?",0
+160,"Given 451 forward entails 985, does any 451 reverse entail each 985?",0
+161,"Given 742 reverse entails 171, does one 171 reverse entail some 742?",0
+162,"Given 46 forward entails 456, does most 46 contradict each 456?",0
+163,"Given 538 forward entails 959, does any 538 forward entail some 959?",0
+164,"Given 956 reverse entails 568, does any 568 reverse entail any 956?",0
+166,"Given 54 contradicts 54, does one 54 forward entail some 54?",0
+167,"Given 733 forward entails 938, does each 938 contradict one 733?",0
+168,"Given 423 forward entails 941, does few 423 forward entail not 941?",0
+169,"Given 263 contradicts 263, does any 263 forward entail most 263?",0
+170,"Given 270 reverse entails 203, does most 270 contradict any 203?",0
+172,"Given 619 reverse entails 562, does each 562 reverse entail one 619?",0
+174,"Given 636 reverse entails 520, does one 520 reverse entail few 636?",0
+175,"Given 771 contradicts 771, does one 771 reverse entail 771?",0
+176,"Given 789 reverse entails 482, does one 789 reverse entail one 482?",0
+177,"Given 733 forward entails 938, does not 938 contradict 733?",0
+179,"Given 540 reverse entails 305, does one 540 reverse entail some 305?",0
+180,"Given 538 reverse entails 228, does not 538 contradict any 228?",0
+181,"Given 336 forward entails 845, does few 845 contradict most 336?",0
+182,"Given 55 forward entails 171, does each 55 forward entail one 171?",0
+183,"Given 586 reverse entails 203, does 203 contradict one 586?",0
+186,"Given 66 forward entails 633, does any 66 reverse entail few 633?",0
+187,"Given 510 forward entails 529, does any 510 contradict 529?",0
+188,"Given 234 contradicts 234, does 234 forward entail one 234?",0
+189,"Given 586 reverse entails 142, does not 586 reverse entail any 142?",0
+190,"Given 789 reverse entails 482, does 789 contradict not 482?",0
+192,"Given 171 contradicts 171, does few 171 reverse entail 171?",0
+195,"Given 440 reverse entails 31, does not 440 contradict any 31?",0
+196,"Given 785 reverse entails 434, does not 785 reverse entail most 434?",0
+197,"Given 129 contradicts 129, does one 129 forward entail some 129?",0
+198,"Given 940 reverse entails 572, does 940 forward entail 572?",0
+199,"Given 119 forward entails 695, does 119 forward entail not 695?",0
+200,"Given 612 reverse entails 263, does 263 reverse entail some 612?",0
+201,"Given 990 forward entails 997, does each 997 contradict few 990?",0
+203,"Given 50 forward entails 332, does some 50 reverse entail each 332?",0
+204,"Given 740 contradicts 740, does not 740 contradict 740?",0
+205,"Given 232 contradicts 232, does most 232 reverse entail one 232?",0
+206,"Given 226 forward entails 530, does some 226 contradict one 530?",0
+207,"Given 232 contradicts 232, does 232 forward entail one 232?",0
+208,"Given 733 forward entails 754, does any 733 reverse entail any 754?",0
+209,"Given 747 forward entails 969, does few 747 contradict most 969?",0
+210,"Given 695 reverse entails 119, does any 119 reverse entail most 695?",0
+211,"Given 689 contradicts 689, does any 689 contradict not 689?",0
+212,"Given 320 forward entails 677, does not 320 forward entail each 677?",0
+213,"Given 789 reverse entails 627, does most 627 reverse entail one 789?",0
+214,"Given 171 forward entails 742, does some 171 reverse entail any 742?",0
+216,"Given 80 forward entails 956, does some 80 forward entail one 956?",0
+217,"Given 229 contradicts 229, does few 229 forward entail few 229?",0
+218,"Given 93 forward entails 569, does not 93 contradict few 569?",0
+219,"Given 869 reverse entails 706, does few 869 contradict one 706?",0
+220,"Given 234 forward entails 552, does most 552 contradict one 234?",0
+221,"Given 633 forward entails 796, does most 633 contradict some 796?",0
+222,"Given 627 forward entails 789, does any 789 forward entail 627?",0
+225,"Given 93 forward entails 129, does not 129 reverse entail one 93?",0
+226,"Given 796 reverse entails 633, does each 796 forward entail one 633?",0
+227,"Given 92 forward entails 423, does each 423 forward entail each 92?",0
+228,"Given 241 forward entails 791, does each 791 forward entail 241?",0
+229,"Given 456 forward entails 577, does each 456 contradict 577?",0
+230,"Given 999 reverse entails 720, does not 720 contradict some 999?",0
+232,"Given 171 forward entails 928, does one 171 reverse entail each 928?",0
+233,"Given 481 contradicts 481, does each 481 forward entail one 481?",0
+235,"Given 520 contradicts 520, does 520 forward entail each 520?",0
+236,"Given 100 forward entails 512, does any 100 contradict any 512?",0
+237,"Given 366 forward entails 880, does some 366 contradict some 880?",0
+238,"Given 940 reverse entails 572, does some 572 contradict few 940?",0
+240,"Given 48 contradicts 48, does some 48 forward entail one 48?",0
+242,"Given 723 reverse entails 14, does few 723 contradict each 14?",0
+243,"Given 119 forward entails 720, does each 119 forward entail any 720?",0
+246,"Given 510 forward entails 529, does each 529 contradict most 510?",0
+248,"Given 93 forward entails 569, does any 93 contradict not 569?",0
+249,"Given 268 contradicts 268, does most 268 reverse entail any 268?",0
