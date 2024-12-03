@@ -2,7 +2,7 @@
 
 This repository contains the LoRT dataset that was introduced at the CMSC 828J course offered at University of Maryland, Colege Park.
 
-Full details about the paper can be found in our Findings paper: [LoRT: Logical Reasoning Evaluation Suite for Transformers]()
+Full details about the paper can be found in our technical report: [LoRT: Logical Reasoning Evaluation Suite for Transformers]()
 
 ## Introduction
 **LoRT** is a large, manually-curated set of CommonsenseQA-style questions for probing logical reasoning capabilities in Language models especially the transformer based models. 
@@ -10,7 +10,7 @@ Full details about the paper can be found in our Findings paper: [LoRT: Logical 
 All questions were written in **English**.
 
 ## Dataset
-The dataset is released in both `JSON` and `CSV` formats. FORK contains `110K` CommmonsenseQA-style questions. 
+The dataset is released in both `JSON` and `CSV` formats. LoRT contains around `110K` CommmonsenseQA-style questions. 
 
 The following is an example entry from FORK:
 ```
@@ -37,4 +37,4 @@ If you use this dataset, please cite the following paper:
     address = "College Park, US"
 }
 ```
-This repo will be legend - wait for it - ary.. legendary!
+PS: This repo will be legend - wait for it - ary.. legendary!
