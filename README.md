@@ -1,5 +1,7 @@
 # LoRT: Logical Reasoning Evaluation Suite for Transformers
 
+* This github is under construction.
+
 This repository contains the LoRT dataset that was introduced at the CMSC 828J course offered at University of Maryland, Colege Park.
 
 Full details about the paper can be found in our technical report: [LoRT: Logical Reasoning Evaluation Suite for Transformers]()
@@ -12,7 +14,7 @@ All questions were written in **English**.
 ## Dataset
 The dataset is released in both `JSON` and `CSV` formats. LoRT contains around `110K` CommmonsenseQA-style questions. 
 
-The following is an example entry from FORK:
+The following is an example entry from LoRT:
 ```
 {
   "Given {A} contradicts {B}, does {A} forward entail {B}?",
